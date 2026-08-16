@@ -50,16 +50,14 @@ AI 应用工程师，专注把工程行业里重复、繁琐的工作交给工�
 ## Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wenxuanzhang1209-cyber&show_icons=true&count_private=true&hide=issues&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenxuanzhang1209-cyber&layout=compact&theme=tokyonight" />
+  <img height="180em" src="https://github-stats.vercel.app/api?username=wenxuanzhang1209-cyber&show_icons=true&count_private=true&hide=issues&theme=tokyonight" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wenxuanzhang1209-cyber&theme=tokyonight" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=wenxuanzhang1209-cyber&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wenxuanzhang1209-cyber&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wenxuanzhang1209-cyber&theme=nord&row=1&column=6" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=wenxuanzhang1209-cyber&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com/?user=wenxuanzhang1209-cyber&theme=tokyonight" />
 </p>
 
 <p align="center">
