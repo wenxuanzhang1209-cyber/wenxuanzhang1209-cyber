@@ -36,6 +36,14 @@ AI 应用工程师，专注把工程行业里重复、繁琐的工作交给工�
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
 </p>
 
+## 🚩 Flagship
+
+| Project | What it does | Why it matters |
+| --- | --- | --- |
+| [JKinco Listen · 筑听（开源本地版）](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open) | 本地优先的 AI 会议纪要工作台：录音转写 → 场景识别 → 结构化纪要 → DOCX/PDF 导出，零 API Key、零云端、数据不出本机 | 旗舰项目 · 100% 本地运行 · Docker 一键部署 · 888 个自动化测试 |
+
+> ⭐ 如果你在意会议数据的隐私，欢迎体验并给旗舰项目点一颗 Star。
+
 ## Featured Projects
 
 | Project | What it does | Tech |
