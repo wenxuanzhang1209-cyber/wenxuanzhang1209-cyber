@@ -69,6 +69,9 @@ What makes it more than a wrapper:
 <sub>本地优先的 AI 会议纪要工作台。录音 → 转写 → 场景识别 → 结构化纪要 → 导出，全程不出本机。
 场景判定用规则证据门控，模型只能降级不能升级——套错模板等于让文件写错责任主体。</sub>
 
+<sub>Submitted to <a href="https://github.com/Hannibal046/Awesome-LLM/pull/794">Awesome-LLM #794</a> — open, awaiting review.
+已向 Awesome-LLM 投稿（PR #794），待评审。</sub>
+
 ---
 
 ## Other work
