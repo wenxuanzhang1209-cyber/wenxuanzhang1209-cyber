@@ -111,6 +111,15 @@ All MIT. Every number above was measured, not estimated.
 
 ---
 
+<sub>
+<b>JKinco</b> — local-first tools for work whose data cannot leave the building ·
+<a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open">Listen</a> ·
+<a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">Slides</a> ·
+<a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">Skills Lab</a> ·
+<a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub">Life Hub</a> ·
+<a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">Tools</a>
+</sub>
+
 <p align="center">
   <sub>Open to collaboration on local-first AI tooling and engineering-industry data problems.<br/>
   欢迎就本地优先的 AI 工具与工程行业数据问题交流。</sub>
