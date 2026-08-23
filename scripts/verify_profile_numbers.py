@@ -103,17 +103,51 @@ def _ci_logs(repo: str) -> str:
     )
     with urllib.request.urlopen(request, timeout=90) as response:
         archive = zipfile.ZipFile(io.BytesIO(response.read()))
+    # 只读顶层那几个文件。压缩包里每个 job 出现两次：顶层一份完整的
+    # `0_Test.txt`，子目录里再按步骤拆一份 `Test/6_Run tests.txt`。
+    # 全拼起来会让所有数字翻倍 —— slides 的 269 就是这么变成 538 的。
+    # listen 那边侥幸没暴露，因为它取的是 max 而不是求和。
     return "\n".join(archive.read(name).decode("utf-8", "replace")
-                     for name in archive.namelist())
+                     for name in archive.namelist() if "/" not in name)
+
+
+#: pytest 的结尾汇总行，形如「958 passed, 3 skipped, 4 warnings in 35.64s」。
+#
+# 必须连「in <秒数>s」一起锚定。第一版只找 `(\d+) passed`，结果匹配到了
+# checkout 步骤打印出来的**提交信息**——那条 commit 正文里恰好写着
+# 「961 passed」。当天答案是对的，纯属巧合；换一条提交信息就错了。
+_PYTEST_SUMMARY = re.compile(
+    r"((?:\d+ (?:passed|failed|skipped|xfailed|xpassed|errors?)(?:, )?)+)"
+    r"(?:, \d+ warnings?)? in [\d.]+s"
+)
+#: 汇总行里算进「测试总数」的那些结果。
+#
+# deselected 不在其中，而且它的出现会让整行匹配不上（正则要求可计数的
+# 结果一路连到「in <秒数>s」）。这是有意的：带 -k 过滤跑出来的
+# 「9 passed, 1 skipped, 948 deselected」根本不是总数，宁可报「量不到」，
+# 也不要拿它去和 README 比。
+_COUNTED = ("passed", "failed", "skipped", "xfailed", "xpassed")
 
 
 def measure_listen_tests() -> int:
-    """listen 的 CI 跑 pytest，日志末尾是「N passed in Xs」。"""
-    counts = [int(n) for n in re.findall(r"(\d+) passed", _ci_logs("jkinco-listen-open"))]
-    if not counts:
-        raise RuntimeError("CI 日志里没找到 pytest 的结果行")
-    # CI 里可能分多步跑；README 上写的是全量那一次，取最大值
-    return max(counts)
+    """listen 的 CI 跑 pytest，读它结尾那行汇总。
+
+    数的是**收集到的总数**（passed + skipped + …），不是 passed。
+    Linux runner 上有几个测试因为缺中文字体会跳过，只数 passed 会
+    得到一个比真实测试数小的值，然后 README 就得跟着写一个假数字。
+    """
+    matches = _PYTEST_SUMMARY.findall(_ci_logs("jkinco-listen-open"))
+    if not matches:
+        raise RuntimeError("CI 日志里没找到 pytest 的结尾汇总行")
+    best = 0
+    for body in matches:
+        total = sum(int(n) for n, word in
+                    re.findall(r"(\d+) (\w+)", body) if word.rstrip("s") in
+                    tuple(w.rstrip("s") for w in _COUNTED))
+        best = max(best, total)
+    if best == 0:
+        raise RuntimeError("汇总行里一个可计数的结果都没有")
+    return best
 
 
 def measure_slides_packages() -> int:
