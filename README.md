@@ -44,7 +44,7 @@ structured minutes → DOCX/PDF, entirely on your own machine. No API key, no cl
 [![Repo](https://img.shields.io/badge/repo-jkinco--listen--open-181717?style=flat-square&logo=github)](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open)
 [![CI](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/actions/workflows/ci.yml/badge.svg)](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/actions/workflows/ci.yml)
 [![Stars](https://img.shields.io/github/stars/wenxuanzhang1209-cyber/jkinco-listen-open?style=flat-square&label=stars)](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/stargazers)
-![Tests](https://img.shields.io/badge/tests-948-3fb950?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-961-3fb950?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 <p align="center">
@@ -70,7 +70,7 @@ What makes it more than a wrapper:
   been written from imagination (none of its thirteen rules ever fired), 17 of the 36 target
   words were missing from the lexicon, and the scoring itself was under-reporting by counting a
   mid-term comma as a recognition failure.
-- **948 tests**, and the interesting ones cover paths that only run when something else has
+- **961 tests**, and the interesting ones cover paths that only run when something else has
   already failed.
 
 <sub>本地优先的 AI 会议纪要工作台。录音 → 转写 → 场景识别 → 结构化纪要 → 导出，全程不出本机。
