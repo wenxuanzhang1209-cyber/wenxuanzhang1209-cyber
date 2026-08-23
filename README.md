@@ -74,17 +74,20 @@ What makes it more than a wrapper:
 
 ---
 
-## Other work
+## The rest of the family
 
-| Project | What it is |
-| --- | --- |
-| [**JKinco Slides**](https://github.com/wenxuanzhang1209-cyber/jkinco-slides) | AI-native presentation studio with object-level editing and PPTX round-trip · `React` `TypeScript` |
-| [**Personal Life Hub**](https://github.com/wenxuanzhang1209-cyber/personal-life-hub) | Local-first hub for timeline, tasks, and reviews · `React` `TypeScript` `Vite` |
-| [**Recipe Mini Program**](https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram) | WeChat mini-program with 10,000+ home-style recipes · `Node.js` `Express` |
-| [**JKinco Skills Lab**](https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab) | Reusable AI skills for posters, product video, and onboarding · `Skills` `Prompts` |
-| [**JKinco Tools**](https://github.com/wenxuanzhang1209-cyber/jkinco-tools) | Lightweight automation scripts · `Python` |
+| Project | What it is | Scale |
+| --- | --- | --- |
+| [**JKinco Slides**](https://github.com/wenxuanzhang1209-cyber/jkinco-slides) | AI-native presentation studio — every object stays editable, PPTX survives the round trip | 18 packages · 269 tests |
+| [**JKinco Skills Lab**](https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab) | Brand design frozen into agent skills, so the output stops drifting between runs | 2 skills + reference system |
+| [**NORTH · Life Hub**](https://github.com/wenxuanzhang1209-cyber/personal-life-hub) | Work, life, and private notes on one timeline with space boundaries | `localStorage` only |
+| [**JKinco Tools**](https://github.com/wenxuanzhang1209-cyber/jkinco-tools) | Mirrors a repo tree, verifying every blob against its Git SHA-1 | 6,407 files, 0 failures |
+| [**Recipe Mini Program**](https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram) | WeChat mini-program — enough real data that search and ranking behave like production | 10,000 recipes · 96,908 ingredient links |
+| [**Video Room**](https://github.com/wenxuanzhang1209-cyber/video-share-site) | One video, one page, one link — no platform wrapped around it | 96 lines of JS |
 
-Everything above is MIT-licensed.
+All MIT. Every number above was measured, not estimated.
+
+<sub>以上数字全部是实测的，不是估计的。</sub>
 
 ---
 
