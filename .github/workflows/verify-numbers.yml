@@ -1,16 +1,21 @@
 name: Verify README numbers
 
-# README 结尾写着「Every number above was measured, not estimated.」
+# README 结尾写着「Every number on this page was measured」。
 # 这个 workflow 存在的意义，就是让那句话保持为真。
 #
-# 数字会自己过期：另一个仓库加了几个测试，这里的徽章就不对了，而这边
-# 什么都不会发生 —— 徽章是图片，表格是纯文本。所以定期主动去量一次。
+# 三件会自己烂掉、而且烂掉时**什么都不会报错**的事：
+#   1. 数字过期 —— 另一个仓库加了几个测试，这里的徽章就不对了。
+#      徽章是图片，表格是纯文本，没有任何东西会注意到。
+#   2. 图表过期 —— 语言构成随着新代码慢慢漂移。
+#   3. 图片失联 —— 大半张主页外链到别的仓库的 raw 文件，
+#      那边改个文件名，这边就多一个碎图标。
+# 所以定期主动去量一次。
 on:
   push:
     branches: [main]
   pull_request:
   schedule:
-    # 每周一早上 08:00（北京时间），一周一次足够：数字漂移是慢的
+    # 每周一早上 08:00（北京时间），一周一次足够：这些东西烂得很慢
     - cron: "0 0 * * 1"
   workflow_dispatch:
 
@@ -23,6 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Re-measure everything the README claims
         env:
           # 需要读其它仓库的 CI 日志来数测试数。默认的 GITHUB_TOKEN
@@ -30,3 +36,16 @@ jobs:
           # 不是失败 —— 脚本刻意区分了这两种情况：量不到不等于量错了。
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/verify_profile_numbers.py
+
+      # 下面两步各自独立跑。串成一条命令的话，第一步失败就再也看不到
+      # 后面两步的结果了 —— 而「数字过期」和「图片全裂了」是两件事，
+      # 应该同时被看见。
+      - name: Charts still reflect the language mix
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/make_charts.py --check
+
+      - name: Every image and internal link still resolves
+        if: always()
+        run: python scripts/check_links.py
