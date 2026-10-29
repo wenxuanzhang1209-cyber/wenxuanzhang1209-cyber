@@ -23,6 +23,9 @@ import json
 import os
 import re
 import io
+import functools
+import shutil
+import subprocess
 import sys
 import zipfile
 import urllib.request
@@ -38,6 +41,21 @@ if not sys.stdout.isatty() or os.environ.get("NO_COLOR"):
 
 
 def _api(path: str):
+    gh = shutil.which("gh")
+    if gh is not None:
+        result = subprocess.run(
+            [gh, "api", path],
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=45,
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        gh_error = result.stderr.strip()[:120]
+    else:
+        gh_error = "gh is not installed"
+
     request = urllib.request.Request(
         f"https://api.github.com/{path.lstrip('/')}",
         headers={"Accept": "application/vnd.github+json",
@@ -46,12 +64,51 @@ def _api(path: str):
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if token:
         request.add_header("Authorization", f"Bearer {token}")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except Exception as error:
+        raise RuntimeError(
+            f"GitHub API failed through gh ({gh_error}) and urllib ({error})"
+        ) from error
 
 
 def _raw(repo: str, path: str) -> str:
     url = f"https://raw.githubusercontent.com/{OWNER}/{repo}/main/{path}"
+    curl = shutil.which("curl")
+    if curl is not None:
+        result = subprocess.run(
+            [
+                curl, "-fsSL",
+                "--connect-timeout", "10",
+                "--max-time", "180",
+                "--retry", "1",
+                "--retry-delay", "1",
+                "--retry-all-errors",
+                url,
+            ],
+            check=False,
+            capture_output=True,
+            timeout=40,
+        )
+        if result.returncode == 0:
+            return result.stdout.decode("utf-8")
+
+    gh = shutil.which("gh")
+    if gh is not None:
+        result = subprocess.run(
+            [
+                gh, "api",
+                f"repos/{OWNER}/{repo}/contents/{path}",
+                "-H", "Accept: application/vnd.github.raw",
+            ],
+            check=False,
+            capture_output=True,
+            timeout=45,
+        )
+        if result.returncode == 0:
+            return result.stdout.decode("utf-8")
+
     request = urllib.request.Request(url, headers={"User-Agent": "jkinco-profile-verifier"})
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8")
@@ -73,6 +130,7 @@ def _claim(pattern: str) -> int:
     return int(match.group(1).replace(",", ""))
 
 
+@functools.lru_cache(maxsize=None)
 def _ci_logs(repo: str) -> str:
     """把某个仓库最近一次成功 CI 的日志全文拿下来。
 
@@ -84,7 +142,8 @@ def _ci_logs(repo: str) -> str:
     不是从另一处可能同样过期的文档里抄来的。
     """
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if not token:
+    gh = shutil.which("gh")
+    if not token and gh is None:
         raise RuntimeError("读 CI 日志需要 GITHUB_TOKEN")
     # 必须按 workflow 名筛。第一版取的是「最近一次成功运行」，
     # 结果 jkinco-listen-open 最近成功的是 pages-build-deployment ——
@@ -96,13 +155,26 @@ def _ci_logs(repo: str) -> str:
     if not candidates:
         raise RuntimeError(f"{repo} 最近 20 次成功运行里没有名为 CI 的")
     run_id = candidates[0]["id"]
-    request = urllib.request.Request(
-        f"https://api.github.com/repos/{OWNER}/{repo}/actions/runs/{run_id}/logs",
-        headers={"User-Agent": "jkinco-profile-verifier",
-                 "Authorization": f"Bearer {token}"},
-    )
-    with urllib.request.urlopen(request, timeout=90) as response:
-        archive = zipfile.ZipFile(io.BytesIO(response.read()))
+    archive_bytes = None
+    if gh is not None:
+        result = subprocess.run(
+            [gh, "api", f"repos/{OWNER}/{repo}/actions/runs/{run_id}/logs"],
+            check=False,
+            capture_output=True,
+            timeout=120,
+        )
+        if result.returncode == 0:
+            archive_bytes = result.stdout
+
+    if archive_bytes is None:
+        request = urllib.request.Request(
+            f"https://api.github.com/repos/{OWNER}/{repo}/actions/runs/{run_id}/logs",
+            headers={"User-Agent": "jkinco-profile-verifier",
+                     "Authorization": f"Bearer {token}"},
+        )
+        with urllib.request.urlopen(request, timeout=90) as response:
+            archive_bytes = response.read()
+    archive = zipfile.ZipFile(io.BytesIO(archive_bytes))
     # 只读顶层那几个文件。压缩包里每个 job 出现两次：顶层一份完整的
     # `0_Test.txt`，子目录里再按步骤拆一份 `Test/6_Run tests.txt`。
     # 全拼起来会让所有数字翻倍 —— slides 的 269 就是这么变成 538 的。
@@ -115,7 +187,7 @@ def _ci_logs(repo: str) -> str:
 #
 # 必须连「in <秒数>s」一起锚定。第一版只找 `(\d+) passed`，结果匹配到了
 # checkout 步骤打印出来的**提交信息**——那条 commit 正文里恰好写着
-# 「961 passed」。当天答案是对的，纯属巧合；换一条提交信息就错了。
+# 「977 passed」。当天答案是对的，纯属巧合；换一条提交信息就错了。
 _PYTEST_SUMMARY = re.compile(
     r"((?:\d+ (?:passed|failed|skipped|xfailed|xpassed|errors?)(?:, )?)+)"
     r"(?:, \d+ warnings?)? in [\d.]+s"

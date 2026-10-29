@@ -16,6 +16,8 @@
 from __future__ import annotations
 
 import re
+import shutil
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -55,6 +57,21 @@ def check(url: str) -> tuple[bool, str]:
         # 为此把 CI 弄红没有意义。碎掉的徽章也一眼能看出来。
         if "img.shields.io" in url or "/actions/workflows/" in url:
             return True, "skipped (badge)"
+        curl = shutil.which("curl")
+        if curl is not None:
+            result = subprocess.run(
+                [
+                    curl, "-fsSIL",
+                    "--connect-timeout", "10",
+                    "--max-time", "30",
+                    url,
+                ],
+                check=False,
+                capture_output=True,
+                timeout=40,
+            )
+            if result.returncode == 0:
+                return True, "HTTP 200"
         request = urllib.request.Request(
             url, method="HEAD", headers={"User-Agent": "jkinco-profile-linkcheck"})
         try:
