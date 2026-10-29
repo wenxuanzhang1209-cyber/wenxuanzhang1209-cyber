@@ -5,8 +5,8 @@
 <h1 align="center">Wenxuan Zhang · 张文瑄</h1>
 
 <p align="center">
-  <b>AI Product Builder · Forward Deployed Engineer · LLM Product Lead</b><br/>
-  Imperial College London (MEng) · Shanghai Jianke Engineering Consulting
+  <b>LLM Product Lead · AI Application Engineer · Forward Deployed Engineer</b><br/>
+  AI Product Builder · Imperial College London (MEng) · Shanghai Jianke Engineering Consulting
 </p>
 
 <p align="center">
@@ -329,10 +329,10 @@ privacy, security, or records-management review.
 
 | | |
 |---|---|
-| **Current role** | AI Application Engineer / LLM Product Lead at Shanghai Jianke Engineering Consulting Co., Ltd. |
+| **Current role** | Forward Deployed Engineer (FDE) · AI Application Engineer · LLM Product Lead at Shanghai Jianke Engineering Consulting Co., Ltd. |
 | **Education** | Imperial College London — MEng |
-| **Capabilities** | Verticals AI products · AI agents and personal agents · AI infrastructure · model training and fine-tuning · operations · UX · product strategy · international collaboration |
-| **Core stack** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude |
+| **Capabilities** | Vertical AI products · AI agents and personal agents · AI infrastructure · model training and fine-tuning · product operations · UX · market insight · product strategy · international collaboration |
+| **Core stack** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude · AI-native development |
 | **Working style** | Start with the workflow and its failure cost, build the measurable slice, ship it, and keep evidence and limits inspectable. |
 
 ## Evidence boundary

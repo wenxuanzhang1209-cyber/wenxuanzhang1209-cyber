@@ -5,8 +5,8 @@
 <h1 align="center">张文瑄 · Wenxuan Zhang</h1>
 
 <p align="center">
-  <b>AI 产品构建者 · FDE 前线部署工程师 · 大模型产品负责人</b><br/>
-  帝国理工学院 MEng · 上海建科工程咨询
+  <b>大模型产品负责人 · AI 应用工程师 · FDE 前线部署工程师</b><br/>
+  AI 产品构建者 · 帝国理工学院 MEng · 上海建科工程咨询
 </p>
 
 <p align="center">
@@ -302,10 +302,10 @@ Open Edition 提供本地/自托管路径，但不能替代组织自己的法律
 
 | | |
 |---|---|
-| **当前工作** | 上海建科工程咨询有限公司，AI 应用工程师 / 大模型产品负责人 |
+| **当前工作** | 上海建科工程咨询有限公司，FDE 前线部署工程师 / AI 应用工程师 / 大模型产品负责人 |
 | **教育** | 帝国理工学院（Imperial College London）MEng |
-| **能力跨度** | 垂直行业 AI · AI Agent 与个人助手 · AI 基础设施 · 模型训练与微调 · 产品运营 · UX · 产品策略 · 国际合作 |
-| **核心技术栈** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude |
+| **能力跨度** | 垂直行业 AI · AI Agent 与个人助手 · AI 基础设施 · 模型训练与微调 · 产品运营 · UX · 市场洞悉 · 产品策略 · 国际合作 |
+| **核心技术栈** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude · AI-native development |
 | **工作方式** | 从工作流和错误代价出发，先做可测量的最小闭环，尽快上线，并让证据与边界保持可复核。 |
 
 ---
