@@ -1,215 +1,372 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Wenxuan Zhang — AI Application Engineer" />
+  <img src="assets/banner.png" width="100%" alt="JKinco Listen — open meeting intelligence for construction and beyond, built by Wenxuan Zhang" />
 </p>
 
-<h1 align="center">Wenxuan Zhang</h1>
+<h1 align="center">Wenxuan Zhang · 张文瑄</h1>
 
 <p align="center">
-  <b>AI Application Engineer</b> · Shanghai<br/>
-  I build tools for work whose data is not allowed to leave the building.
+  <b>LLM Product Lead · AI Application Engineer · Forward Deployed Engineer</b><br/>
+  AI Product Builder · Imperial College London (MEng) · Shanghai Jianke Engineering Consulting
+</p>
+
+<p align="center">
+  <b>Building AI Products That Matter.</b><br/>
+  <b>From Frontier AI to Real-World Impact.</b>
+</p>
+
+<p align="center">
+  I turn complex workflows and frontier AI capabilities into intuitive, reliable, and scalable
+  products. My work spans AI Agents, AI engineering, product and UX, open source, and commercial
+  delivery.
+</p>
+
+<p align="center">
+  <b>Product ownership:</b> I independently designed and built the end-to-end JKinco Listen
+  software product — strategy, UX, architecture, AI engineering, implementation, testing, launch,
+  and open source.
+</p>
+
+<p align="center">
+  <a href="https://wenxuanzhang1209-cyber.github.io/"><img src="https://img.shields.io/badge/Portfolio-Open_site-2f81f7?style=flat-square" alt="Portfolio" /></a>
+  <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/Email-wenxuanzhang1209%40gmail.com-181717?style=flat-square&logo=gmail" alt="Email" /></a>
+  <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/Product-JKinco_Listen-22a06b?style=flat-square" alt="JKinco Listen" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><img src="https://img.shields.io/badge/Open_Source-MeetDo-181717?style=flat-square&logo=github" alt="MeetDo by JKinco Listen" /></a>
 </p>
 
 <p align="center">
   <b>English</b> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
-<p align="center">
-  <a href="https://wenxuanzhang1209-cyber.github.io/"><img src="https://img.shields.io/badge/Portfolio-wenxuanzhang1209--cyber.github.io-58a6ff?style=flat-square" alt="Portfolio" /></a>
-  <img src="https://img.shields.io/badge/Focus-Local--first%20AI-3fb950?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/License-MIT%20across%20all%20repos-181717?style=flat-square" alt="MIT" />
-</p>
-
 ---
 
-## The constraint everything is built around
+## AI Builder: Product · Engineering · Shipping · Global
 
-A construction supervision meeting produces two hours of audio. In this industry that audio
-often **cannot legally leave the building** — not to a transcription service, not to an LLM
-API, not to a bucket in someone else's region. So the recording sits on a phone, and someone
-retypes the minutes that night, from memory, at 11pm.
-
-Cloud tools can't take that job. Whisper-class models stop at a raw transcript and leave the
-hard part — *what was decided, and who now owns it* — untouched.
-
-So I build the other kind of tool: the whole pipeline on your own hardware.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-pipeline-dark.svg" />
-    <img src="assets/chart-pipeline-light.svg" width="100%" alt="The full pipeline runs on your machine; the path to a cloud API is cut" />
-  </picture>
-</p>
-
-**What I actually work on:** construction-supervision digitalisation · multimodal data
-platforms (image–text pair extraction, tiered review, structured export) · AI tooling
-(presentation software, WeChat mini-programs, office automation).
-
----
-
-## 🚩 JKinco Listen · 筑听
-
-**A local-first AI meeting-minutes workbench.** Recording → transcript → scene detection →
-structured minutes → DOCX/PDF, entirely on your own machine. No API key, no cloud call.
-
-<p align="center">
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><img src="https://img.shields.io/badge/repo-jkinco--listen--open-181717?style=flat-square&logo=github" alt="Repo" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/actions/workflows/ci.yml"><img src="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/stargazers"><img src="https://img.shields.io/github/stars/wenxuanzhang1209-cyber/jkinco-listen-open?style=flat-square&label=stars" alt="Stars" /></a>
-  <img src="https://img.shields.io/badge/tests-961-3fb950?style=flat-square" alt="Tests" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/demo.gif" width="88%" alt="JKinco Listen walkthrough — record, transcribe, detect the meeting type, export" />
-</p>
+I am not optimizing for one model, one industry, or one product category. I combine product
+judgment, hands-on engineering, shipped evidence, and an international product perspective to
+turn difficult workflows into useful AI systems.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/demo-workspace.png" alt="The workbench, mid-meeting" />
-<br/><sub><b>The workbench.</b> Live transcript on the left, the structured minutes assembling themselves on the right.</sub>
+<b>01 · AI Product Builder</b><br/><br/>
+Find the user problem, define the product, design the experience, make commercial trade-offs,
+and stay accountable through launch and iteration.
 </td>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/demo-minutes.png" alt="Generated minutes for a construction progress meeting" />
-<br/><sub><b>The output.</b> A construction progress review, filled into the template that scene detection picked.</sub>
+<b>02 · Hands-on AI Engineering</b><br/><br/>
+Build AI agents, LLM applications, multimodal systems, real-time infrastructure, model
+evaluation, fine-tuning workflows, and production user interfaces.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>03 · Shipped Products</b><br/><br/>
+Use live products, working demos, source, release history, tests, and clear evidence boundaries
+instead of technology keywords alone.
+</td>
+<td width="50%" valign="top">
+<b>04 · Global Vision & Commercial Thinking</b><br/><br/>
+Design for international adoption, open collaboration, repeatable product logic, and a credible
+path from user value to business value.
 </td>
 </tr>
 </table>
 
-### What makes it more than a wrapper
+---
 
-- **The classifier's rules outrank the model.** Meeting type decides which template is used,
-  and the wrong template produces a document asserting the wrong legal responsibility. So a
-  rules-based evidence gate runs first and wins; the model may downgrade a classification but
-  never promote one.
-- **The privacy claim is enforced, not asserted.** CI fails the build if any cloud-model
-  trace, API key, or production hostname enters the repository.
-- **961 tests**, and the interesting ones cover paths that only run when something else has
-  already failed — a chunk that came back empty, a disk that filled mid-recording, a browser
-  that refused to give up the microphone.
-- **Domain accuracy is measured, not asserted.**
+## Flagship: JKinco Listen · 筑听
+
+**Meeting-to-Action AI Platform**
+
+**The meeting ends. AI keeps the work moving.**
+
+Today, JKinco Listen records with a phone or **筑听 Z1**, streams a live transcript, generates
+structured minutes with decisions and owners, exports Word/PDF, and answers questions grounded in
+the meeting. The Open Edition turns this direction into a self-hosted stack with LiveKit, local
+ASR/LLM, source access, and a verifiable privacy boundary.
+
+The next product layer is a Personal Agent that carries approved meeting context into follow-up
+work, documents, tasks, and connected office systems. **The WorkBuddy connection is complete and
+live**; MCP/API extension is the next interoperability layer.
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-benchmark-dark.svg" />
-    <img src="assets/chart-benchmark-light.svg" width="100%" alt="Local ASR alone scores 31 of 36 domain terms; with domain correction, 36 of 36" />
-  </picture>
+  <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/Production_App-v1.1.8-22a06b?style=flat-square" alt="JKinco Listen production app version 1.1.8" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="Open Edition v0.2.0" /></a>
+  <a href="https://open.workbuddy.cn"><img src="https://img.shields.io/badge/WorkBuddy-connected-7c3aed?style=flat-square" alt="WorkBuddy connector completed" /></a>
+  <a href="mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot"><img src="https://img.shields.io/badge/Request-Global_pilot-2f81f7?style=flat-square&logo=gmail" alt="Request a global JKinco Listen pilot" /></a>
 </p>
 
-Writing that benchmark is what turned up three of its own problems: the correction table had
-been written from imagination (none of its thirteen rules ever fired), 17 of the 36 target
-words were missing from the lexicon, and the scoring itself was under-reporting by counting a
-mid-term comma as a recognition failure. A benchmark that only ever confirms you were right
-isn't measuring anything — [read how it runs](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/BENCHMARK.md).
+<p align="center">
+  <a href="https://jkincolisten.cloud"><b>Product website</b></a> ·
+  <a href="https://jkincolisten.cloud/download/ios"><b>iOS availability</b></a> ·
+  <a href="https://jkincolisten.cloud/download/android"><b>Android</b></a> ·
+  <a href="https://jkincolisten.cloud/download/harmony/app.hap"><b>HarmonyOS</b></a> ·
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><b>MeetDo Open Edition</b></a>
+</p>
 
-<sub>Submitted to <a href="https://github.com/Hannibal046/Awesome-LLM/pull/794">Awesome-LLM #794</a> — open, awaiting review.</sub>
+> **Distribution note:** as of 2026-10-29, the production iOS page uses an operator-managed
+> install flow. This profile does not claim App Store or TestFlight availability. International
+> evaluation should use the Open Edition or request a guided pilot.
+
+<p align="center">
+  <a href="https://jkincolisten.cloud">
+    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-download-tour.gif" width="100%" alt="JKinco Listen production tour: live capture, automatic minutes, and grounded meeting Q&A" />
+  </a>
+</p>
+
+### See the workflow, not just the output
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-recording.gif" width="100%" alt="Live capture in JKinco Listen" />
+</a>
+<br/><b>01 · Capture live</b><br/>
+<sub>Phone or Z1 audio becomes a live, speaker-aware transcript while the meeting is still running.</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-generation.gif" width="100%" alt="Automatic structured minutes in JKinco Listen" />
+</a>
+<br/><b>02 · Resolve the minutes</b><br/>
+<sub>Decisions, owners, risks, and actions become an editable document with Word/PDF export.</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-sona.gif" width="100%" alt="Sona meeting Q&A in JKinco Listen" />
+</a>
+<br/><b>03 · Ask Sona</b><br/>
+<sub>Query the meeting and its minutes for grounded answers, follow-ups, and missing context.</sub>
+</td>
+</tr>
+</table>
+
+### Hardware, live app, and MeetDo
+
+<table>
+<tr>
+<td width="38%" valign="top">
+<a href="https://jkincolisten.cloud">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 smart recording card" />
+</a>
+</td>
+<td width="62%" valign="top">
+<b>筑听 Z1 · capture hardware</b><br/><br/>
+A roughly 44 g magnetic recorder card with dual omnidirectional microphones and a
+bone-conduction microphone. The published product card lists 8 / 16 / 32 / 64 GB storage,
+iOS / Android support, and recognition across 120+ languages and dialects.
+<br/><br/>
+I integrated Z1 beside phone recording as a first-class capture source in the product flow.
+Hardware sourcing and manufacturing are separate from the end-to-end software development
+described below.
+</td>
+</tr>
+</table>
+
+### My role: end-to-end product development
+
+**I independently designed and developed the JKinco Listen software product from the initial
+workflow problem through the production app and MeetDo Open Edition.**
+
+| Product stage | What I designed, built, and shipped |
+|---|---|
+| **User and market research** | Studied high-context meeting workflows, responsibility chains, document failure costs, and the gap between generic cloud note-takers and regulated professional work |
+| **Product strategy** | Defined the product thesis, general-market positioning, construction-industry stress test, production/Open Edition split, feature scope, roadmap, and trade-offs |
+| **UX and interface** | Designed the information architecture, recording flow, live transcript, meeting history, minutes editing, template selection, Sona Q&A, and export experience |
+| **Real-time audio** | Built the self-hosted LiveKit path for live meeting rooms, microphone/screen-sharing flows, streaming captions, reconnects, meeting controls, and local ASR transport |
+| **Speech and domain layer** | Implemented FunASR-based local recognition, VAD, punctuation, a domain lexicon, measured correction rules, and the evaluation loop behind the 31/36 → 36/36 result |
+| **Minutes intelligence** | Built evidence-gated meeting classification, structured extraction, chunked generation, merge/review steps, five domain templates, custom DOCX templates, and DOCX/PDF export |
+| **Sona and model integration** | Implemented grounded meeting Q&A plus local Ollama and OpenAI-compatible model adapters for generation and follow-up questions |
+| **Backend and data** | Built the FastAPI services, authentication flow, per-user history, template storage and quotas, job queue, rate limiting, security headers, and audit-oriented failure handling |
+| **Cross-platform delivery** | Built the browser workbench and integrated the production app flow across phone, Z1 capture, iOS, Android, HarmonyOS, and the downloadable product website |
+| **Reliability and security** | Created the Open Edition packaging, Docker deployment, CI checks, secret and cloud-boundary scans, failure-path coverage, and the reproducible domain benchmark |
+| **Launch and open source** | Designed the product and download experience, demos, release notes, architecture/security docs, contribution path, roadmap, and the public Open Edition |
+
+Z1 is capture hardware. This claim covers the end-to-end software product and Z1 integration;
+it does not claim responsibility for external hardware sourcing or manufacturing.
+
+### Product principles
+
+- **Value starts before the meeting ends.** Live captions, meeting context, and a structured
+  record belong to one workflow rather than three disconnected tools.
+- **The document must preserve accountability.** Decisions, owners, risks, and actions are more
+  important than a polished summary that loses who owns what.
+- **General by design, vertical under pressure.** Management reviews, customer calls,
+  interviews, training, and research are first-class uses. Construction is the stress test
+  because complex responsibility chains make a wrong owner change the meaning of the document.
+- **Two deployment models, one product direction.** The production app optimizes time-to-value;
+  the Open Edition exposes source, local ASR/LLM paths, and a self-hosted trust boundary.
+
+### Beyond meeting notes: from conversation to action
+
+The long-term category is broader than transcription: a real meeting becomes structured,
+permissioned context that a Personal Agent can use to prepare and follow through on work.
+
+| Layer | Status | What exists or is proposed |
+|---|---|---|
+| **Meeting intelligence** | **Live** | Phone/Z1 capture, live transcript, structured minutes, decisions, owners, DOCX/PDF export |
+| **Meeting-grounded personal agent** | **Live today as Sona Q&A** | Ask questions against the meeting and its minutes for context, follow-ups, and missing information |
+| **Post-meeting action orchestration** | **Product direction** | Task breakdown, document drafting, reminders, and status tracking under explicit user authorization |
+| **Connected office ecosystem** | **WorkBuddy Live** | Completed WorkBuddy connection for carrying authorized meeting context into connected workflows; MCP/API expansion is the next layer |
+
+The goal is a two-way loop: conversation → structured context → approved action → verified result →
+updated meeting record. WorkBuddy connection is complete; additional connector surfaces will be
+announced only when they are live.
+
+<details>
+<summary><b>Connector contract</b> — tool-by-tool public availability is documented at release</summary>
+
+| Proposed capability | Purpose |
+|---|---|
+| `list_meetings` | List meetings within the user's authorization scope |
+| `get_meeting_summary` | Return the approved summary, decisions, and minutes |
+| `get_action_items` | Return owners, deadlines, and action status |
+| `get_meeting_context` | Return permissioned transcript excerpts and source timestamps |
+| `update_action_status` | Write an execution result back to the originating meeting |
+| `create_followup` | Create a linked follow-up task or document request |
+
+External writes, responsibility assignment, and business-system changes require explicit approval,
+idempotency, and an audit trail.
+</details>
+
+### Benchmark: what it proves — and what it does not
+
+| Scope | Evidence |
+|---|---|
+| **Measured** | 10 synthetic, noise-degraded Chinese meeting clips and 36 target domain terms |
+| **Observed** | Local ASR alone: **31/36**. Domain correction: **36/36**, fixing the five misses |
+| **Baseline** | The same local pipeline before correction; no cloud-ASR comparison is included |
+| **Not measured** | CER/WER, confidence intervals, real-room accuracy, broad multilingual ASR accuracy, or superiority against other products |
+| **Intended use** | A reproducible regression and smoke test for the domain-correction layer |
+
+MeetDo's 977 automated checks are evidence of release engineering and failure-path
+activity, not a standalone claim of product quality.
+
+### Three product decisions I made
+
+| Decision | Why I made it | Result |
+|---|---|---|
+| **Build for live meetings first** | A post-meeting summary discards the moment when context, questions, and accountability are richest | Live transcript, evolving minutes, and Sona Q&A share one stateful flow |
+| **Put rules before model confidence in scene selection** | A persuasive but wrong template can assert the wrong responsibility; the model needs a gate that can stop it | Evidence-gated classification; the model may downgrade a result but cannot promote a weak one |
+| **Split the production app from MeetDo** | Most users need a short path to value; developers and regulated teams need source and a verifiable trust boundary | Production product and MIT MeetDo edition share a direction without pretending to be identical builds |
+
+### Designed to complement the enterprise stack
+
+DingTalk, Tencent Meeting, Feishu, and broader collaboration suites are strong at identity,
+messaging, meetings, and distribution. JKinco Listen targets the adjacent capture-and-document
+layer: preserving evidence and accountable ownership, adapting to a workflow, and making the
+result durable outside the meeting.
+
+This is an interoperability direction, not a claim of vendor certification or partnership.
 
 ---
 
-## The rest of the family
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-slides/main/docs/screenshots/editor.png" alt="JKinco Slides editor" /></a>
 <br/><b><a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">JKinco Slides</a></b>
-<br/><sub>An AI-native presentation studio where every object stays editable — and PPTX survives the round trip, which is the part everyone else skips.</sub>
+<br/><sub>AI-native presentation studio focused on editable objects, deterministic PPTX round trips, and explicit package boundaries.</sub>
 <br/><sub><code>18 packages · 269 tests</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab"><img src="assets/thumb-skills-lab.jpg" alt="Brand character reference sheet" /></a>
+<a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab"><img src="assets/thumb-skills-lab.jpg" alt="JKinco Skills Lab reference system" /></a>
 <br/><b><a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">JKinco Skills Lab</a></b>
-<br/><sub>Brand design frozen into agent skills. The reference art is the contract — that's what stops the output drifting between runs.</sub>
+<br/><sub>Reusable agent skills that encode design knowledge and make reference art part of the output contract.</sub>
 <br/><sub><code>2 skills + reference system</code></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/personal-life-hub/main/docs/screenshots/home.png" alt="NORTH Life Hub timeline" /></a>
-<br/><b><a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub">NORTH · Life Hub</a></b>
-<br/><sub>Work, life and private notes on one timeline — with boundaries, so they don't bleed into each other.</sub>
-<br/><sub><code>localStorage only · zero network calls</code></sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/recipe-miniprogram/main/docs/social-preview.png" alt="Recipe mini program" /></a>
-<br/><b><a href="https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram">Recipe Mini Program</a></b>
-<br/><sub>A WeChat mini-program with enough real data that search and ranking behave like production — shipped with a quality audit that names its own defect.</sub>
-<br/><sub><code>10,000 recipes · 96,908 ingredient links</code></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/video-share-site"><img src="assets/thumb-video-room.jpg" alt="Single-video sharing page" /></a>
-<br/><b><a href="https://github.com/wenxuanzhang1209-cyber/video-share-site">Video Room</a></b>
-<br/><sub>One video, one page, one link — no platform wrapped around it, no account required to watch.</sub>
-<br/><sub><code>96 lines of JS</code></sub>
-</td>
-<td width="50%" valign="top">
-<b><a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">JKinco Tools</a></b>
-<br/><sub>Small automation scripts that verify their own work. The mirror tool re-hashes every file it copies and checks it against the Git SHA-1 — so "it worked" is a measurement, not a hope.</sub>
-<br/><sub><code>6,407 files, 0 failures · standard library only</code></sub>
-<br/><br/>
-<b><a href="https://wenxuanzhang1209-cyber.github.io/">Portfolio site</a></b>
-<br/><sub>The long-form version of this page.</sub>
+<td colspan="2" valign="top">
+<b>XiaoZhi Harness · pre-release, not yet public source</b><br/><br/>
+An agent harness for intent → planning → file/Git changes → verification → reviewable delivery.
+I am preparing a sanitized candidate with safe command defaults, no full-access mode, encrypted
+credentials, loopback-only deployment, provenance review, secret scanning, and synthetic demo
+data. No public repository or licence is claimed before IP and company-publication approval.
 </td>
 </tr>
 </table>
 
+Other open experiments: [NORTH](https://github.com/wenxuanzhang1209-cyber/personal-life-hub),
+[Recipe Mini Program](https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram), and
+[JKinco Tools](https://github.com/wenxuanzhang1209-cyber/jkinco-tools).
+
 ---
 
-## By the numbers
+## Open-source ecosystem
 
-Two charts I generate from the GitHub API rather than borrowing from a stats service — the
-usual cards count repositories instead of code, and count forks as if I'd written them. One
-fork in this account holds 50 MB of Rust I have never touched, which is enough to make a
-Python-and-TypeScript developer look like a Rust developer.
+The public entry points are deliberately practical:
+
+- **View the production product:** [JKinco Listen](https://jkincolisten.cloud) — platform availability varies by channel
+- **Request an international pilot:** [email](mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot)
+- **Run the Open Edition:** [Docker quick start](https://github.com/wenxuanzhang1209-cyber/meetdo#quick-start-docker)
+- **Understand it:** [architecture](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ARCHITECTURE.en.md) and [benchmark](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/BENCHMARK.md)
+- **Evaluate it:** [v0.2.0 release](https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0), CI, and security policy
+- **Contribute:** [contributing guide](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/CONTRIBUTING.md), [roadmap](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ROADMAP.en.md), and [Discussions](https://github.com/wenxuanzhang1209-cyber/meetdo/discussions)
+
+Integration recipes for collaboration platforms are a roadmap direction, not an existing
+vendor certification or claimed partnership.
+
+## Responsible deployment
+
+Meeting records can contain personal, commercial, or regulated information. For production use,
+the deployment and operating process should define:
+
+- participant notice and recording consent appropriate to the jurisdiction;
+- whether audio, transcripts, and minutes stay on-device, in a private deployment, or cross a
+  model-provider boundary;
+- retention, deletion, access control, and data-subject request handling;
+- human review for owner names, decisions, risks, and other high-impact fields;
+- an escalation path when transcription or model output is incomplete or wrong.
+
+MeetDo exposes a local/self-hosted path. It does not replace an organization's legal,
+privacy, security, or records-management review.
+
+## Experience & education
+
+| | |
+|---|---|
+| **Current role** | Forward Deployed Engineer (FDE) · AI Application Engineer · LLM Product Lead at Shanghai Jianke Engineering Consulting Co., Ltd. |
+| **Education** | Imperial College London — MEng |
+| **Capabilities** | Vertical AI products · AI agents and personal agents · AI infrastructure · model training and fine-tuning · product operations · UX · market insight · product strategy · international collaboration |
+| **Core stack** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude · AI-native development |
+| **Working style** | Start with the workflow and its failure cost, build the measurable slice, ship it, and keep evidence and limits inspectable. |
+
+## Evidence boundary
+
+| Public evidence | Not claimed without approval or stronger evidence |
+|---|---|
+| Production app `v1.1.8`, Open Edition `v0.2.0`, MIT licence, source, release history, architecture, security policy, CI, 977 automated checks, and the synthetic domain benchmark | Revenue, active users, retention, customer logos, vendor partnerships, App Store/TestFlight availability, cloud-ASR superiority, broad multilingual ASR accuracy, or confidence intervals not present in the published benchmark |
+
+Test count is an engineering-activity signal, not a quality score. The benchmark is a regression
+and smoke test, not a real-room accuracy claim.
+
+---
+
+## Let's build the missing layer
+
+I am open to conversations about:
+
+- forward-deployed and AI product roles, especially where product judgment and hands-on
+  engineering are expected in the same person;
+- enterprise pilots where privacy, accountability, or domain language makes generic tools
+  insufficient;
+- open-source collaboration around local-first AI, meeting intelligence, and agent harnesses;
+- investment conversations around vertical AI products and local-first infrastructure.
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-languages-dark.svg" />
-    <img src="assets/chart-languages-light.svg" width="100%" alt="Own public code by language: Python 40.3%, TypeScript 39.3%, JavaScript 10.1%, CSS 9.5%" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-tests-dark.svg" />
-    <img src="assets/chart-tests-light.svg" width="100%" alt="JKinco Listen has 961 automated tests; JKinco Slides has 269" />
-  </picture>
+  <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/Start_a_conversation-wenxuanzhang1209%40gmail.com-2f81f7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Wenxuan Zhang" /></a>
 </p>
-
-Every number on this page was measured, and a
-[weekly workflow](.github/workflows/verify-numbers.yml) re-measures them from the source
-repositories. If one drifts, this README fails its own CI — which has already caught a test
-count that had quietly gone stale.
-
----
-
-## Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/FunASR-FF6F00?style=flat-square" alt="FunASR" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-</p>
-
----
 
 <p align="center">
   <sub>
-  <b>JKinco</b> — local-first tools for work whose data cannot leave the building ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open">Listen</a> ·
+  <b>JKinco</b> · production AI, local-first systems, and open evidence ·
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo">MeetDo</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">Slides</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">Skills Lab</a> ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub">Life Hub</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">Tools</a>
   </sub>
-</p>
-
-<p align="center">
-  <sub>Open to collaboration on local-first AI tooling and engineering-industry data problems.</sub>
 </p>

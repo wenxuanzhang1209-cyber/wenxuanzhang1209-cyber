@@ -23,6 +23,8 @@ from __future__ import annotations
 
 import json
 import os
+import shutil
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -56,6 +58,21 @@ MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
 
 def _api(path: str):
+    gh = shutil.which("gh")
+    if gh is not None:
+        result = subprocess.run(
+            [gh, "api", path],
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=45,
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        gh_error = result.stderr.strip()[:120]
+    else:
+        gh_error = "gh is not installed"
+
     request = urllib.request.Request(
         f"https://api.github.com/{path.lstrip('/')}",
         headers={"Accept": "application/vnd.github+json",
@@ -64,8 +81,13 @@ def _api(path: str):
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if token:
         request.add_header("Authorization", f"Bearer {token}")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except Exception as error:
+        raise RuntimeError(
+            f"GitHub API failed through gh ({gh_error}) and urllib ({error})"
+        ) from error
 
 
 def measure_languages() -> tuple[list[tuple[str, int]], int, int]:
@@ -153,7 +175,7 @@ def chart_languages(t, slices, total_kb, repo_count):
 
 
 #: 测试数由 verify_profile_numbers.py 独立核对（它去读源仓库 CI 的真实日志）。
-TESTS = [("JKinco Listen", 961, "counted from its CI log, not its badge"),
+TESTS = [("JKinco Listen", 977, "counted from its CI log, not its badge"),
          ("JKinco Slides", 269, "summed across 18 packages")]
 
 
