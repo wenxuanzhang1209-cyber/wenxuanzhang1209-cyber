@@ -2,7 +2,7 @@
   <img src="assets/banner.png" width="100%" alt="筑听 JKinco Listen — 不止记录，更懂工程，Built by Wenxuan Zhang" />
 </p>
 
-<h1 align="center">张文瑄 · Wenxuan Zhang</h1>
+<h1 align="center">Wenxuan Zhang</h1>
 
 <p align="center">
   <b>大模型产品负责人 · AI 应用工程师 · FDE 前线部署工程师</b><br/>
