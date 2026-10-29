@@ -10,15 +10,20 @@
 </p>
 
 <p align="center">
-  <b>从前沿 AI 技术，到用户真正喜爱的产品。</b><br/>
-  把业务里最难、最琐碎的工作流，做成真正上线的 AI 产品。
+  <b>从复杂工作流，到用户真正喜爱的 AI 产品。</b><br/>
+  覆盖 Agent、LLM 应用、多模态系统、AI 基础设施与产品工程，从用户洞察一直做到生产交付。
+</p>
+
+<p align="center">
+  <b>端到端产品主导与实现：</b>筑听 JKinco Listen 的产品战略、UX、架构、AI 工程、代码实现、
+  测试、上线与开源，均由我独立设计并开发。
 </p>
 
 <p align="center">
   <a href="https://wenxuanzhang1209-cyber.github.io/"><img src="https://img.shields.io/badge/个人站-打开网站-2f81f7?style=flat-square" alt="个人站" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/Email-wenxuanzhang1209%40gmail.com-181717?style=flat-square&logo=gmail" alt="Email" /></a>
-  <a href="https://jkincolisten.cloud/download/ios"><img src="https://img.shields.io/badge/正式产品-筑听_App-22a06b?style=flat-square" alt="正式产品" /></a>
-  <img src="https://img.shields.io/badge/Location-Shanghai-59636e?style=flat-square" alt="上海" />
+  <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/产品-筑听_JKinco_Listen-22a06b?style=flat-square" alt="筑听 JKinco Listen" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><img src="https://img.shields.io/badge/开源版-Open_Edition-181717?style=flat-square&logo=github" alt="筑听 Open Edition" /></a>
 </p>
 
 <p align="center">
@@ -27,27 +32,24 @@
 
 ---
 
-## Builder · Product Thinker · Global AI Builder
+## 我做什么
 
-最有价值的 AI 产品，往往不是聊天窗口。它接手的是一套真实工作流：多个责任主体、混乱输入、
-密集的行业语言、严格的数据边界，以及一份必须经得起复核的记录或决策。
+我工作在“产品判断”与“亲手工程实现”的交汇处：理解复杂业务流程，选择模型与系统边界，
+设计产品和体验，并持续推进到上线、反馈与迭代。
 
 <table>
 <tr>
 <td width="33%" valign="top">
-<b>01 · Builder</b><br/><br/>
-把想法变成真正可运行的产品，而不是停留在技术名词。覆盖应用、Agent、基础设施和部署层，
-再用上线产品、源码、在线演示与可测量的异常路径覆盖证明结果。
+<b>产品定义</b><br/><br/>
+把用户痛点、流程约束、错误代价与商业要求，收敛成边界清楚、取舍明确的产品。
 </td>
 <td width="33%" valign="top">
-<b>02 · Product Thinker</b><br/><br/>
-从用户痛点、决策链、责任主体和犯错代价出发，再决定模型边界、UX、评测闭环、定位与商业取舍。
-这是产品负责人和纯算法工程师最重要的区别。
+<b>亲手工程实现</b><br/><br/>
+覆盖 AI Agent、LLM 应用、多模态系统、实时基础设施、模型评测与面向用户的产品界面。
 </td>
 <td width="33%" valign="top">
-<b>03 · Global AI Builder</b><br/><br/>
-面向全球做产品：英文优先的文档和完整中文版本、透明演示、可复现基准、开放 Issues，以及
-世界各地的开发者能够理解、使用和继续扩展的产品方向。
+<b>生产交付</b><br/><br/>
+使用 Codex、Claude、CI、可观察异常路径和快速迭代，把原型推进到用户真正可用的产品。
 </td>
 </tr>
 </table>
@@ -56,32 +58,33 @@
 
 ## 旗舰产品：筑听 JKinco Listen
 
-**面向所有高信息密度会议的生产级产品；工程监理是最严苛的压力测试，不是能力上限。**
+**把实时对话转成可追溯、可复核的记录。面向所有高信息密度会议，并在工程监理这一严苛场景中打磨。**
 
 正式产品支持手机或 **筑听 Z1** 采集，实时转写、自动生成结构化纪要、导出 Word/PDF，并可基于
 会议原文与纪要继续追问。开源版把同一产品方向变成 LiveKit + 本地 ASR/LLM 的自托管方案，
 开放源码，并用可执行检查守住隐私边界。
 
 <p align="center">
-  <a href="https://jkincolisten.cloud/download/ios"><img src="https://img.shields.io/badge/使用正式_App-iOS_%7C_Android_%7C_HarmonyOS-2f81f7?style=flat-square" alt="iOS、Android、鸿蒙正式 App" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Release-v0.2.0-181717?style=flat-square" alt="v0.2.0" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/stargazers"><img src="https://img.shields.io/github/stars/wenxuanzhang1209-cyber/jkinco-listen-open?style=flat-square&label=stars" alt="GitHub stars" /></a>
-  <img src="https://img.shields.io/badge/测试-977-3fb950?style=flat-square" alt="测试数" />
-  <img src="https://img.shields.io/badge/许可-MIT-blue?style=flat-square" alt="MIT" />
-</p>
-
-<p align="center">
-  <a href="https://jkincolisten.cloud/download/ios">
-    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-download-tour.gif" width="100%" alt="筑听正式产品演示：现场采集、自动成稿与基于会议内容的问答" />
-  </a>
+  <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/正式_App-v1.1.8-22a06b?style=flat-square" alt="筑听正式 App v1.1.8" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="筑听 Open Edition v0.2.0" /></a>
+  <a href="mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot"><img src="https://img.shields.io/badge/申请-全球试用-2f81f7?style=flat-square&logo=gmail" alt="申请筑听全球试用" /></a>
 </p>
 
 <p align="center">
   <a href="https://jkincolisten.cloud"><b>产品官网</b></a> ·
-  <a href="https://jkincolisten.cloud/download/ios"><b>iOS</b></a> ·
+  <a href="https://jkincolisten.cloud/download/ios"><b>iOS 可用性</b></a> ·
   <a href="https://jkincolisten.cloud/download/android"><b>安卓</b></a> ·
   <a href="https://jkincolisten.cloud/download/harmony/app.hap"><b>鸿蒙</b></a> ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>开源版</b></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>Open Edition</b></a>
+</p>
+
+> **分发说明：** 截至 2026-10-29，正式版 iOS 页面使用运营方管理的安装流程。本页不宣称已经
+> 上架 App Store 或通过 TestFlight 分发。国际评估建议使用 Open Edition，或申请有支持的试用。
+
+<p align="center">
+  <a href="https://jkincolisten.cloud">
+    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-download-tour.gif" width="100%" alt="筑听正式产品演示：现场采集、自动成稿与基于会议内容的问答" />
+  </a>
 </p>
 
 ### 不只是结果，而是完整的工作流
@@ -89,21 +92,21 @@
 <table>
 <tr>
 <td width="33%" valign="top" align="center">
-<a href="https://jkincolisten.cloud/download/ios">
+<a href="https://jkincolisten.cloud">
   <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-recording.gif" width="100%" alt="筑听现场采集中" />
 </a>
 <br/><b>01 · 现场采集</b><br/>
 <sub>手机或筑听 Z1 的音频，在会议进行中实时变成带说话人的转写。</sub>
 </td>
 <td width="33%" valign="top" align="center">
-<a href="https://jkincolisten.cloud/download/ios">
+<a href="https://jkincolisten.cloud">
   <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-generation.gif" width="100%" alt="筑听自动生成结构化纪要" />
 </a>
 <br/><b>02 · 自动成稿</b><br/>
 <sub>决策、责任主体、风险和待办沉淀为可编辑文档，并支持 Word/PDF 导出。</sub>
 </td>
 <td width="33%" valign="top" align="center">
-<a href="https://jkincolisten.cloud/download/ios">
+<a href="https://jkincolisten.cloud">
   <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-sona.gif" width="100%" alt="筑听 Sona 会议问答" />
 </a>
 <br/><b>03 · 妙思追问</b><br/>
@@ -112,123 +115,118 @@
 </tr>
 </table>
 
-### 一个产品系统，三种形态
+### 硬件、实时 App 与 Open Edition
 
 <table>
 <tr>
-<td width="46%" valign="top">
-<a href="https://jkincolisten.cloud/download/ios">
+<td width="38%" valign="top">
+<a href="https://jkincolisten.cloud">
   <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 智能录音卡" />
 </a>
 </td>
-<td width="54%" valign="top">
+<td width="62%" valign="top">
 <b>筑听 Z1 · 采集硬件</b><br/><br/>
 约 44 g 的磁吸录音卡，双全向麦克风加 1 个骨传导麦克风。公开产品卡列出的配置包括
 8 / 16 / 32 / 64 GB 存储、Android / iOS 支持，以及 120+ 种语言和方言识别。
 <br/><br/>
-在正式 App 中，Z1 与手机录音并列，作为一等的采集入口；适合那些掏出手机就会改变现场氛围的
-会议。
+我把 Z1 与手机录音整合为产品中的一等采集入口。Z1 的硬件选型与制造不属于下文所述的
+端到端软件研发，但 App 接入、采集流程与整体体验由我完成。
 </td>
 </tr>
 </table>
 
-### 为什么它不是 AI 套壳
+### 我的职责：独立完成端到端产品研发
 
-- **会议还在进行，记录就开始产生价值。** 实时字幕与结构化纪要处在同一条链路，而不是会后
-  另外接一个总结按钮。
-- **通用产品，严苛验证。** 管理层会议、客户沟通、面试、培训和研究访谈都是核心场景。
-  工程监理之所以是压力测试，是因为责任主体写错，会直接改变文件含义。
-- **可信的数据边界。** 开源版可以完全走本地模型；CI 会扫描工作区和 Git 历史，阻止
-  API Key、云模型痕迹和生产基础设施信息进入仓库。
-- **领域质量是量出来的。** 十段加噪中文会议音频、36 个高风险术语：纯本地 ASR 识别
-  31 / 36，加领域纠错后达到 36 / 36。合成音频比真实会议室干净，所以这个结果应看作上限，
-  而不是无条件承诺。
-- **开源版 977 个自动化测试**，覆盖 API、安全、并发、模板、导出、实时会议和异常路径。
+**筑听 JKinco Listen 软件产品从最初的工作流问题，到正式 App 与 Open Edition，均由我独立设计、
+开发并推进上线。**
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-benchmark-dark.svg" />
-    <img src="assets/chart-benchmark-light.svg" width="100%" alt="纯本地 ASR 命中 36 个领域词中的 31 个，加上领域纠错后 36/36" />
-  </picture>
-</p>
-
-### 产品案例：从想法到影响
-
-| 环节 | 产品决策 | 公开证据 |
-|---|---|---|
-| **用户洞察** | 会议价值不应等到散会后才出现 | 实时字幕、自动纪要与基于会议内容的问答形成同一条链路 |
-| **产品定义** | 把开箱即用的产品与可审计的自托管版本明确分开 | iOS / Android / 鸿蒙正式产品与 MIT Open Edition |
-| **AI 工程** | 让模型质量可观察、数据边界可验证 | 证据门控分类、可量化的领域纠错、本地 ASR / LLM、DOCX/PDF |
-| **产品交付** | 同时缩短普通用户与开发者的首次成功路径 | 三端下载页、Docker Compose、一条命令启动 |
-| **采用证据** | 只公开能够被复核的事实 | 在线产品、Z1 采集入口、v0.2.0 Release、977 个测试、可复现基准 |
-
-这里不虚构商业采用量或收入。当前公开证据是已经上线的产品、开源代码、测试、基准、文档和
-版本记录。
-
-### 工程实力
-
-| 方向 | 已实现内容 |
+| 产品阶段 | 我具体设计、开发并交付了什么 |
 |---|---|
-| **实时系统** | 自托管 LiveKit 媒体、流式字幕、断线重连、会议控制与浏览器交互 |
-| **模型应用** | 本地 ASR、领域纠错、证据门控分类、本地 LLM 生成与会议问答 |
-| **评测与可靠性** | 可复现领域基准、977 个测试、CI、失败路径覆盖与版本契约 |
-| **安全边界** | 脱敏密钥扫描、生产/云端边界检查、显式本地凭据与安全文档 |
-| **AI 原生交付** | 使用 Codex、Claude 等 AI 编程工作流，从原型推进到经过测试的实现 |
+| **用户与市场研究** | 研究高信息密度会议、责任链、文档出错代价，以及通用云端记录工具与受监管专业工作流之间的差距 |
+| **产品战略** | 定义产品命题、通用市场定位、工程监理压力测试、正式版/开源版边界、功能范围、路线图与关键取舍 |
+| **UX 与界面** | 设计信息架构、录音流程、实时转写、会议历史、纪要编辑、模板选择、Sona 问答与导出体验 |
+| **实时音频** | 构建 LiveKit 自托管会议链路，包括麦克风/屏幕共享、流式字幕、断线重连、会议控制与本地 ASR 传输 |
+| **语音与领域层** | 实现 FunASR 本地识别、VAD、标点、领域词库、实测纠错规则，以及支撑 31/36 → 36/36 的评测闭环 |
+| **纪要智能** | 实现证据门控会议分类、结构化抽取、分块生成、合并复核、五类场景模板、自定义 DOCX 模板与 DOCX/PDF 导出 |
+| **Sona 与模型接入** | 实现基于会议原文与纪要的问答，以及 Ollama 本地模型和 OpenAI-compatible 模型适配层 |
+| **后端与数据** | 构建 FastAPI 服务、登录认证、用户历史、模板存储与配额、任务队列、限流、安全 Header 与审计式错误处理 |
+| **跨端交付** | 完成浏览器工作台，并打通手机、Z1、iOS、Android、HarmonyOS 与产品下载站的正式产品链路 |
+| **可靠性与安全** | 建立 Open Edition 打包、Docker 部署、CI、密钥与云端边界扫描、异常路径测试和可复现领域基准 |
+| **发布与开源** | 设计产品与下载体验、演示、Release Notes、架构/安全文档、贡献路径、路线图与公开开源版 |
 
-### 企业 AI 栈里的差异化一层
+Z1 属于采集硬件。本页强调的独占贡献是端到端软件产品与 Z1 App 接入，不延伸声称外部
+硬件选型或制造。
 
-钉钉、腾讯会议、飞书已经掌握了广泛的协作、身份、消息与分发能力。筑听的机会不是把它们重做一遍。
+### 产品原则
 
-它更适合成为可信的「采集—证据—责任—文档」层：在严格数据边界内运行，保留可追溯依据，
-深入适配具体工作流，再与已有企业平台连接。通用套件赢在覆盖面，聚焦产品赢在最后一公里。
+- **会议结束前，价值就开始产生。** 实时字幕、会议上下文与结构化记录属于同一条工作流，
+  而不是三个割裂的工具。
+- **文档必须保留责任关系。** 决策、责任主体、风险与待办，比一份丢失责任归属的漂亮摘要更重要。
+- **通用产品，极端场景压测。** 管理层会议、客户沟通、面试、培训与研究访谈都是核心场景；
+  工程监理是压力测试，因为责任主体写错会直接改变文件含义。
+- **两种部署，一个产品方向。** 正式 App 优化首次使用价值；Open Edition 开放源码、本地
+  ASR/LLM 能力与自托管信任边界。
+
+### Benchmark：能证明什么，不能证明什么
+
+| 范围 | 事实 |
+|---|---|
+| **测了什么** | 10 段合成并加噪的中文会议音频，36 个领域目标词 |
+| **观察结果** | 纯本地 ASR **31/36**；加入领域纠错后 **36/36**，修复 5 个未命中项 |
+| **基线** | 同一条本地流水线加入纠错前的结果；不包含云端 ASR 横向对比 |
+| **没有测什么** | CER/WER、置信区间、真实会议室准确率、广泛多语种 ASR 准确率，或相对其他产品的优越性 |
+| **适用方式** | 领域纠错层的可复现回归与冒烟测试 |
+
+Open Edition 的 977 个自动化检查代表发布工程与异常路径工作量，不单独作为产品质量结论。
+
+### 我做的三个关键产品决策
+
+| 决策 | 为什么这样选 | 结果 |
+|---|---|---|
+| **优先服务“会议进行中”** | 会后总结会丢掉上下文、追问和责任形成的最有价值时刻 | 实时转写、持续生成的纪要与 Sona 问答共享同一条有状态链路 |
+| **场景判断先规则、后模型** | 模型可能给出有说服力却错误的模板，进而写错责任关系，因此必须有可阻断的证据门 | 证据门控分类；模型可以降级结果，但不能提升弱证据结论 |
+| **正式 App 与 Open Edition 分开** | 普通用户需要最短路径；开发者和受监管团队需要源码与可验证边界 | 正式产品与 MIT Open Edition 共享方向，但不假装是同一构建 |
+
+### 与现有企业平台互补
+
+钉钉、腾讯会议、飞书及更广泛的协作套件，在身份、消息、会议与分发上具备优势。筑听聚焦相邻的
+「采集—证据—责任—文档」层：保留可追溯依据，维护责任归属，适配具体工作流，并让会议结果
+离开会议后仍可继续使用。
+
+这是互操作方向，不代表已经获得厂商认证或形成官方合作。
 
 ---
 
-## 代表产品与项目
+## 代表项目
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-slides/main/docs/screenshots/editor.png" alt="JKinco Slides 编辑器" /></a>
 <br/><b><a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">JKinco Slides</a></b>
-<br/><sub>AI 原生演示文稿工作台，每个对象都能继续编辑，PPTF/PPTX 往返不失真。</sub>
+<br/><sub>AI 原生演示文稿工作台，聚焦对象可编辑、可验证的 PPTX 往返与清晰的包边界。</sub>
 <br/><sub><code>18 packages · 269 tests</code></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab"><img src="assets/thumb-skills-lab.jpg" alt="JKinco Skills Lab 参考体系" /></a>
 <br/><b><a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">JKinco Skills Lab</a></b>
-<br/><sub>把品牌方法与设计知识固化为可复用 Agent Skills，用参考图作为输出契约。</sub>
+<br/><sub>把设计知识固化为可复用 Agent Skills，并让参考图成为输出契约的一部分。</sub>
 <br/><sub><code>2 个 skill + 一套参考体系</code></sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/personal-life-hub/main/docs/screenshots/home.png" alt="NORTH 生活中枢" /></a>
-<br/><b><a href="https://github.com/wenxuanzhang1209-cyber/personal-life-hub">NORTH · 生活中枢</a></b>
-<br/><sub>工作与生活共用一条时间线，但用明确边界避免互相污染，数据只留本地。</sub>
-<br/><sub><code>只用 localStorage · 零网络请求</code></sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram"><img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/recipe-miniprogram/main/docs/social-preview.png" alt="家常菜小程序" /></a>
-<br/><b><a href="https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram">家常菜小程序</a></b>
-<br/><sub>拥有生产级数据规模的微信小程序，并附上一份主动指出自身缺陷的数据质检报告。</sub>
-<br/><sub><code>10,000 道菜 · 96,908 条配料关联</code></sub>
-</td>
-</tr>
-<tr>
 <td colspan="2" valign="top">
-<b><a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">JKinco Tools</a></b> ·
-会校验自己输出的小型自动化工具。镜像工具会重新计算每个复制文件的哈希，并与 Git 对象哈希
-比对：<code>6,407 个文件，0 失败</code>，且只用标准库。
+<b>XiaoZhi Harness · 预研阶段，尚未公开发布源码</b><br/><br/>
+面向「意图 → 规划 → 文件与 Git 修改 → 验证 → 可审查交付」的 Agent Harness。我正在准备
+清洁候选版：安全命令默认值、移除完全访问模式、凭据加密、仅监听本机、来源审查、密钥扫描与
+合成演示数据。知识产权与公司发布权限审核完成前，不宣称已有公开仓库或开源许可证。
 </td>
 </tr>
 </table>
 
-### Xiaozhi Coding · 预研阶段，尚未公开发布源码
-
-探索 AI 原生 Coding Harness：自然语言意图 → Agent 规划 → 文件与 Git 修改 → 验证 →
-可审查交付。只有在知识产权、许可证、安全与公司公开发布权限完成审核后，才会考虑公开发布。
-在审核完成前，本页不宣称已有公开仓库或开源许可证。
+其他公开实验：[NORTH](https://github.com/wenxuanzhang1209-cyber/personal-life-hub)、
+[家常菜小程序](https://github.com/wenxuanzhang1209-cyber/recipe-miniprogram) 与
+[JKinco Tools](https://github.com/wenxuanzhang1209-cyber/jkinco-tools)。
 
 ---
 
@@ -236,15 +234,26 @@
 
 公开入口以可执行为先：
 
-- **直接使用：** [正式 App 与三端下载](https://jkincolisten.cloud/download/ios)
-- **本地运行：** [Open Edition 快速开始](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open#quick-start-docker)
+- **查看正式产品：** [筑听 JKinco Listen](https://jkincolisten.cloud)，平台可用性因分发渠道而异
+- **申请国际试用：** [发送邮件](mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot)
+- **本地运行：** [Open Edition Docker 快速开始](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open#quick-start-docker)
 - **理解架构：** [技术架构](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ARCHITECTURE.md) 与 [领域基准](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/BENCHMARK.md)
 - **评估质量：** [v0.2.0 Release](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0)、CI 与安全策略
 - **参与共建：** [贡献指南](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/CONTRIBUTING.md)、[路线图](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ROADMAP.md) 与 [Discussions](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/discussions)
 
 与协作平台的集成 Recipe 属于路线图方向，不代表已经实现、获得认证或形成官方合作。
 
----
+## 负责任部署
+
+会议记录可能包含个人信息、商业信息或受监管数据。正式部署与运营流程应明确：
+
+- 符合所在司法辖区要求的参与者告知与录音同意；
+- 音频、转写和纪要究竟留在设备、私有部署，还是跨越模型供应商边界；
+- 留存、删除、权限控制与数据主体请求处理；
+- 对责任主体、决策、风险等高影响字段进行人工复核；
+- 转写或模型输出不完整、错误时的升级与纠错路径。
+
+Open Edition 提供本地/自托管路径，但不能替代组织自己的法律、隐私、安全与档案合规审查。
 
 ## 经历与教育
 
@@ -252,39 +261,17 @@
 |---|---|
 | **当前工作** | 上海建科工程咨询有限公司，AI 应用工程师 / 大模型产品负责人 |
 | **教育** | 帝国理工学院（Imperial College London）MEng |
-| **能力跨度** | 垂直行业 AI · Agent 与个人助手 · AI 基础设施 · 模型训练与微调 · 运营 · UX · 产品策略 · 国际合作 |
-| **工作方式** | 从工作流和错误代价出发，先做可测量的最小闭环，尽快上线，并让证据可复核。 |
+| **能力跨度** | 垂直行业 AI · AI Agent 与个人助手 · AI 基础设施 · 模型训练与微调 · 产品运营 · UX · 产品策略 · 国际合作 |
+| **核心技术栈** | Python · TypeScript · React · FastAPI · LiveKit · FunASR · Ollama · OpenAI-compatible models · Docker · Codex · Claude |
+| **工作方式** | 从工作流和错误代价出发，先做可测量的最小闭环，尽快上线，并让证据与边界保持可复核。 |
 
-## 常用工具
+## 证据边界
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/LiveKit-05A660?style=flat-square" alt="LiveKit" />
-  <img src="https://img.shields.io/badge/FunASR-FF6F00?style=flat-square" alt="FunASR" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/Codex-111827?style=flat-square&logo=openai&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square" alt="Claude" />
-</p>
+| 可以公开核验的事实 | 未获批准或证据不足时不宣称 |
+|---|---|
+| 正式 App `v1.1.8`、Open Edition `v0.2.0`、MIT 许可、源码、版本记录、架构、安全策略、CI、977 个自动化检查与合成领域基准 | 收入、活跃用户、留存、客户 Logo、厂商合作、App Store/TestFlight 已上架、云端 ASR 优势、广泛多语种 ASR 准确率，或基准中并不存在的置信区间 |
 
-## 证据本身就是产品的一部分
-
-这一页的数字由[每周运行的 workflow](.github/workflows/verify-numbers.yml)回到源仓库重新测量。
-图表直接来自 GitHub API，不把 fork 项目里并不属于我的代码算在自己头上。
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-languages-dark.svg" />
-    <img src="assets/chart-languages-light.svg" width="100%" alt="我编写的公开代码语言构成" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chart-tests-dark.svg" />
-    <img src="assets/chart-tests-light.svg" width="100%" alt="筑听 977 个自动化测试，JKinco Slides 269 个" />
-  </picture>
-</p>
+测试数量是工程活动信号，不是质量分数。Benchmark 是回归与冒烟测试，不是真实会议室准确率结论。
 
 ---
 

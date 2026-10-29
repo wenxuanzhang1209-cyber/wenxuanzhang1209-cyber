@@ -34,7 +34,7 @@ if not sys.stdout.isatty():
 #: 它们要么是自己的仓库，要么是第三方的 PR 页，前者不会消失，
 #: 后者返回 404 也不该让这个仓库的 CI 变红。
 IMG = re.compile(r'(?:src|srcset)="([^"]+)"')
-REL = re.compile(r'\]\((?!https?:|#)([^)]+)\)')
+REL = re.compile(r'\]\((?!https?:|mailto:|#)([^)]+)\)')
 
 
 def collect() -> dict[str, list[str]]:
@@ -52,6 +52,8 @@ def collect() -> dict[str, list[str]]:
 
 
 def check(url: str) -> tuple[bool, str]:
+    if url.startswith("mailto:"):
+        return True, "skipped (mailto)"
     if url.startswith(("http://", "https://")):
         # img.shields.io 的徽章不查：它是动态生成的，偶发 5xx 很常见，
         # 为此把 CI 弄红没有意义。碎掉的徽章也一眼能看出来。
