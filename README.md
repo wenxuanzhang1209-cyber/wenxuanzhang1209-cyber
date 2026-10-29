@@ -5,20 +5,25 @@
 <h1 align="center">Wenxuan Zhang · 张文瑄</h1>
 
 <p align="center">
-  <b>LLM Product Lead · AI Application Engineer · Forward Deployed Engineer</b><br/>
-  Shanghai Jianke · Imperial College London (MEng)
+  <b>AI Product Builder · Forward Deployed Engineer · LLM Product Lead</b><br/>
+  Imperial College London (MEng) · Shanghai Jianke Engineering Consulting
 </p>
 
 <p align="center">
-  <b>From complex workflows to AI products people love.</b><br/>
-  I build AI-native products across agents, LLM applications, multimodal systems, AI
-  infrastructure, and product engineering — from user insight to production delivery.
+  <b>Building AI Products That Matter.</b><br/>
+  <b>From Frontier AI to Real-World Impact.</b>
 </p>
 
 <p align="center">
-  <b>End-to-end product ownership:</b> product strategy, UX, architecture, AI engineering,
-  implementation, testing, launch, and open source for JKinco Listen were independently designed
-  and built by me.
+  I turn complex workflows and frontier AI capabilities into intuitive, reliable, and scalable
+  products. My work spans AI Agents, AI engineering, product and UX, open source, and commercial
+  delivery.
+</p>
+
+<p align="center">
+  <b>Product ownership:</b> I independently designed and built the end-to-end JKinco Listen
+  software product — strategy, UX, architecture, AI engineering, implementation, testing, launch,
+  and open source.
 </p>
 
 <p align="center">
@@ -34,28 +39,35 @@
 
 ---
 
-## What I do
+## AI Builder: Product · Engineering · Shipping · Global
 
-I work where product judgment and hands-on engineering meet: understanding an operationally
-complex workflow, choosing the right model and system boundary, designing the experience, and
-staying through deployment and iteration.
+I am not optimizing for one model, one industry, or one product category. I combine product
+judgment, hands-on engineering, shipped evidence, and an international product perspective to
+turn difficult workflows into useful AI systems.
 
 <table>
 <tr>
-<td width="33%" valign="top">
-<b>Product definition</b><br/><br/>
-Turn user pain, workflow constraints, failure cost, and business requirements into a focused
-product with explicit trade-offs.
+<td width="50%" valign="top">
+<b>01 · AI Product Builder</b><br/><br/>
+Find the user problem, define the product, design the experience, make commercial trade-offs,
+and stay accountable through launch and iteration.
 </td>
-<td width="33%" valign="top">
-<b>Hands-on engineering</b><br/><br/>
-Build across AI agents, LLM applications, multimodal systems, real-time infrastructure, model
-evaluation, and user-facing product surfaces.
+<td width="50%" valign="top">
+<b>02 · Hands-on AI Engineering</b><br/><br/>
+Build AI agents, LLM applications, multimodal systems, real-time infrastructure, model
+evaluation, fine-tuning workflows, and production user interfaces.
 </td>
-<td width="33%" valign="top">
-<b>Production delivery</b><br/><br/>
-Use Codex, Claude, CI, observable failure paths, and rapid iteration to move from prototype to
-a product people can actually use.
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>03 · Shipped Products</b><br/><br/>
+Use live products, working demos, source, release history, tests, and clear evidence boundaries
+instead of technology keywords alone.
+</td>
+<td width="50%" valign="top">
+<b>04 · Global Vision & Commercial Thinking</b><br/><br/>
+Design for international adoption, open collaboration, repeatable product logic, and a credible
+path from user value to business value.
 </td>
 </tr>
 </table>
@@ -64,17 +76,23 @@ a product people can actually use.
 
 ## Flagship: JKinco Listen · 筑听
 
-**Meeting intelligence that turns a live conversation into an accountable record — general by
-design, hardened in construction supervision.**
+**Meeting-to-Action AI Platform**
 
-The production product records with a phone or **筑听 Z1**, streams a live transcript,
-generates structured minutes, exports Word/PDF, and answers questions grounded in the meeting.
-The open edition turns the same product direction into a self-hosted stack with LiveKit, local
+**The meeting ends. AI keeps the work moving.**
+
+Today, JKinco Listen records with a phone or **筑听 Z1**, streams a live transcript, generates
+structured minutes with decisions and owners, exports Word/PDF, and answers questions grounded in
+the meeting. The Open Edition turns this direction into a self-hosted stack with LiveKit, local
 ASR/LLM, source access, and a verifiable privacy boundary.
+
+The next product layer is a Personal Agent that carries approved meeting context into follow-up
+work, documents, tasks, and connected office systems. **The WorkBuddy connection is complete and
+live**; MCP/API extension is the next interoperability layer.
 
 <p align="center">
   <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/Production_App-v1.1.8-22a06b?style=flat-square" alt="JKinco Listen production app version 1.1.8" /></a>
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="Open Edition v0.2.0" /></a>
+  <a href="https://open.workbuddy.cn"><img src="https://img.shields.io/badge/WorkBuddy-connected-7c3aed?style=flat-square" alt="WorkBuddy connector completed" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot"><img src="https://img.shields.io/badge/Request-Global_pilot-2f81f7?style=flat-square&logo=gmail" alt="Request a global JKinco Listen pilot" /></a>
 </p>
 
@@ -154,7 +172,7 @@ workflow problem through the production app and Open Edition.**
 | Product stage | What I designed, built, and shipped |
 |---|---|
 | **User and market research** | Studied high-context meeting workflows, responsibility chains, document failure costs, and the gap between generic cloud note-takers and regulated professional work |
-| **Product strategy** | Defined the product thesis, general-market positioning, construction-supervision stress test, production/Open Edition split, feature scope, roadmap, and trade-offs |
+| **Product strategy** | Defined the product thesis, general-market positioning, construction-industry stress test, production/Open Edition split, feature scope, roadmap, and trade-offs |
 | **UX and interface** | Designed the information architecture, recording flow, live transcript, meeting history, minutes editing, template selection, Sona Q&A, and export experience |
 | **Real-time audio** | Built the self-hosted LiveKit path for live meeting rooms, microphone/screen-sharing flows, streaming captions, reconnects, meeting controls, and local ASR transport |
 | **Speech and domain layer** | Implemented FunASR-based local recognition, VAD, punctuation, a domain lexicon, measured correction rules, and the evaluation loop behind the 31/36 → 36/36 result |
@@ -175,10 +193,42 @@ it does not claim responsibility for external hardware sourcing or manufacturing
 - **The document must preserve accountability.** Decisions, owners, risks, and actions are more
   important than a polished summary that loses who owns what.
 - **General by design, vertical under pressure.** Management reviews, customer calls,
-  interviews, training, and research are first-class uses. Construction supervision is the
-  stress test because a wrong owner changes the meaning of the document.
+  interviews, training, and research are first-class uses. Construction is the stress test
+  because complex responsibility chains make a wrong owner change the meaning of the document.
 - **Two deployment models, one product direction.** The production app optimizes time-to-value;
   the Open Edition exposes source, local ASR/LLM paths, and a self-hosted trust boundary.
+
+### Beyond meeting notes: from conversation to action
+
+The long-term category is broader than transcription: a real meeting becomes structured,
+permissioned context that a Personal Agent can use to prepare and follow through on work.
+
+| Layer | Status | What exists or is proposed |
+|---|---|---|
+| **Meeting intelligence** | **Live** | Phone/Z1 capture, live transcript, structured minutes, decisions, owners, DOCX/PDF export |
+| **Meeting-grounded personal agent** | **Live today as Sona Q&A** | Ask questions against the meeting and its minutes for context, follow-ups, and missing information |
+| **Post-meeting action orchestration** | **Product direction** | Task breakdown, document drafting, reminders, and status tracking under explicit user authorization |
+| **Connected office ecosystem** | **WorkBuddy Live** | Completed WorkBuddy connection for carrying authorized meeting context into connected workflows; MCP/API expansion is the next layer |
+
+The goal is a two-way loop: conversation → structured context → approved action → verified result →
+updated meeting record. WorkBuddy connection is complete; additional connector surfaces will be
+announced only when they are live.
+
+<details>
+<summary><b>Connector contract</b> — tool-by-tool public availability is documented at release</summary>
+
+| Proposed capability | Purpose |
+|---|---|
+| `list_meetings` | List meetings within the user's authorization scope |
+| `get_meeting_summary` | Return the approved summary, decisions, and minutes |
+| `get_action_items` | Return owners, deadlines, and action status |
+| `get_meeting_context` | Return permissioned transcript excerpts and source timestamps |
+| `update_action_status` | Write an execution result back to the originating meeting |
+| `create_followup` | Create a linked follow-up task or document request |
+
+External writes, responsibility assignment, and business-system changes require explicit approval,
+idempotency, and an audit trail.
+</details>
 
 ### Benchmark: what it proves — and what it does not
 
