@@ -2,11 +2,11 @@
   <img src="assets/banner.png" width="100%" alt="筑听 JKinco Listen — 不止记录，更懂工程，Built by Wenxuan Zhang" />
 </p>
 
-<h1 align="center">张文轩 · Wenxuan Zhang</h1>
+<h1 align="center">张文瑄 · Wenxuan Zhang</h1>
 
 <p align="center">
-  <b>FDE 前线部署工程师 · AI 应用工程师 · 大模型产品负责人</b><br/>
-  上海 · 帝国理工学院 MEng
+  <b>大模型产品负责人 · AI 应用工程师 · FDE 前线部署工程师</b><br/>
+  上海建科 · 帝国理工学院 MEng
 </p>
 
 <p align="center">
@@ -270,7 +270,7 @@
 - 垂直 AI 产品与本地优先基础设施方向的投资交流。
 
 <p align="center">
-  <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/开始交流-wenxuanzhang1209%40gmail.com-2f81f7?style=for-the-badge&logo=gmail&logoColor=white" alt="给张文轩发邮件" /></a>
+  <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/开始交流-wenxuanzhang1209%40gmail.com-2f81f7?style=for-the-badge&logo=gmail&logoColor=white" alt="给张文瑄发邮件" /></a>
 </p>
 
 <p align="center">

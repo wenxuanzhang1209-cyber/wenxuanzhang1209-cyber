@@ -2,11 +2,11 @@
   <img src="assets/banner.png" width="100%" alt="JKinco Listen — open meeting intelligence for construction and beyond, built by Wenxuan Zhang" />
 </p>
 
-<h1 align="center">Wenxuan Zhang · 张文轩</h1>
+<h1 align="center">Wenxuan Zhang · 张文瑄</h1>
 
 <p align="center">
-  <b>Forward-Deployed Engineer · AI Application Engineer · Large-Model Product Lead</b><br/>
-  Shanghai · Imperial College London (MEng)
+  <b>LLM Product Lead · AI Application Engineer · Forward Deployed Engineer</b><br/>
+  Shanghai Jianke · Imperial College London (MEng)
 </p>
 
 <p align="center">
