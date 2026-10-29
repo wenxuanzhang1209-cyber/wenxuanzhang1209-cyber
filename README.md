@@ -2,7 +2,7 @@
   <img src="assets/banner.png" width="100%" alt="JKinco Listen — open meeting intelligence for construction and beyond, built by Wenxuan Zhang" />
 </p>
 
-<h1 align="center">Wenxuan Zhang · 张文瑄</h1>
+<h1 align="center">Wenxuan Zhang</h1>
 
 <p align="center">
   <b>LLM Product Lead · AI Application Engineer · Forward Deployed Engineer</b><br/>
