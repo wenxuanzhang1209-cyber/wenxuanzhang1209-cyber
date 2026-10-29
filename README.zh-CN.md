@@ -84,6 +84,34 @@
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>开源版</b></a>
 </p>
 
+### 不只是结果，而是完整的工作流
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-recording.gif" width="100%" alt="筑听现场采集中" />
+</a>
+<br/><b>01 · 现场采集</b><br/>
+<sub>手机或筑听 Z1 的音频，在会议进行中实时变成带说话人的转写。</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-generation.gif" width="100%" alt="筑听自动生成结构化纪要" />
+</a>
+<br/><b>02 · 自动成稿</b><br/>
+<sub>决策、责任主体、风险和待办沉淀为可编辑文档，并支持 Word/PDF 导出。</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-sona.gif" width="100%" alt="筑听 Sona 会议问答" />
+</a>
+<br/><b>03 · 妙思追问</b><br/>
+<sub>基于会议原文和纪要持续追问，获得有出处的答案与补充上下文。</sub>
+</td>
+</tr>
+</table>
+
 ### 一个产品系统，三种形态
 
 <table>

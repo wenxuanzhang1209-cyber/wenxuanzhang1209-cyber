@@ -90,6 +90,34 @@ ASR/LLM, source access, and a verifiable privacy boundary.
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>Open source</b></a>
 </p>
 
+### See the workflow, not just the output
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-recording.gif" width="100%" alt="Live capture in JKinco Listen" />
+</a>
+<br/><b>01 · Capture live</b><br/>
+<sub>Phone or Z1 audio becomes a live, speaker-aware transcript while the meeting is still running.</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-generation.gif" width="100%" alt="Automatic structured minutes in JKinco Listen" />
+</a>
+<br/><b>02 · Resolve the minutes</b><br/>
+<sub>Decisions, owners, risks, and actions become an editable document with Word/PDF export.</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="https://jkincolisten.cloud/download/ios">
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-sona.gif" width="100%" alt="Sona meeting Q&A in JKinco Listen" />
+</a>
+<br/><b>03 · Ask Sona</b><br/>
+<sub>Query the meeting and its minutes for grounded answers, follow-ups, and missing context.</sub>
+</td>
+</tr>
+</table>
+
 ### One product system, three surfaces
 
 <table>
