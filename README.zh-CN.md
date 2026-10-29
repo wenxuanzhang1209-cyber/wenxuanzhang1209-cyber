@@ -28,7 +28,7 @@
   <a href="https://wenxuanzhang1209-cyber.github.io/"><img src="https://img.shields.io/badge/个人站-打开网站-2f81f7?style=flat-square" alt="个人站" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/Email-wenxuanzhang1209%40gmail.com-181717?style=flat-square&logo=gmail" alt="Email" /></a>
   <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/产品-筑听_JKinco_Listen-22a06b?style=flat-square" alt="筑听 JKinco Listen" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><img src="https://img.shields.io/badge/开源版-Open_Edition-181717?style=flat-square&logo=github" alt="筑听 Open Edition" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><img src="https://img.shields.io/badge/开源版-Open_Edition-181717?style=flat-square&logo=github" alt="筑听 Open Edition" /></a>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ ASR/LLM 的自托管方案，开放源码，并用可执行检查守住隐私边
 
 <p align="center">
   <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/正式_App-v1.1.8-22a06b?style=flat-square" alt="筑听正式 App v1.1.8" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="筑听 Open Edition v0.2.0" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="筑听 Open Edition v0.2.0" /></a>
   <a href="https://open.workbuddy.cn"><img src="https://img.shields.io/badge/WorkBuddy-已连接-7c3aed?style=flat-square" alt="WorkBuddy 连接已完成" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot"><img src="https://img.shields.io/badge/申请-全球试用-2f81f7?style=flat-square&logo=gmail" alt="申请筑听全球试用" /></a>
 </p>
@@ -92,7 +92,7 @@ ASR/LLM 的自托管方案，开放源码，并用可执行检查守住隐私边
   <a href="https://jkincolisten.cloud/download/ios"><b>iOS 可用性</b></a> ·
   <a href="https://jkincolisten.cloud/download/android"><b>安卓</b></a> ·
   <a href="https://jkincolisten.cloud/download/harmony/app.hap"><b>鸿蒙</b></a> ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>Open Edition</b></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><b>Open Edition</b></a>
 </p>
 
 > **分发说明：** 截至 2026-10-29，正式版 iOS 页面使用运营方管理的安装流程。本页不宣称已经
@@ -100,7 +100,7 @@ ASR/LLM 的自托管方案，开放源码，并用可执行检查守住隐私边
 
 <p align="center">
   <a href="https://jkincolisten.cloud">
-    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-download-tour.gif" width="100%" alt="筑听正式产品演示：现场采集、自动成稿与基于会议内容的问答" />
+    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-download-tour.gif" width="100%" alt="筑听正式产品演示：现场采集、自动成稿与基于会议内容的问答" />
   </a>
 </p>
 
@@ -110,21 +110,21 @@ ASR/LLM 的自托管方案，开放源码，并用可执行检查守住隐私边
 <tr>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-recording.gif" width="100%" alt="筑听现场采集中" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-recording.gif" width="100%" alt="筑听现场采集中" />
 </a>
 <br/><b>01 · 现场采集</b><br/>
 <sub>手机或筑听 Z1 的音频，在会议进行中实时变成带说话人的转写。</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-generation.gif" width="100%" alt="筑听自动生成结构化纪要" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-generation.gif" width="100%" alt="筑听自动生成结构化纪要" />
 </a>
 <br/><b>02 · 自动成稿</b><br/>
 <sub>决策、责任主体、风险和待办沉淀为可编辑文档，并支持 Word/PDF 导出。</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-sona.gif" width="100%" alt="筑听 Sona 会议问答" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-sona.gif" width="100%" alt="筑听 Sona 会议问答" />
 </a>
 <br/><b>03 · 妙思追问</b><br/>
 <sub>基于会议原文和纪要持续追问，获得有出处的答案与补充上下文。</sub>
@@ -138,7 +138,7 @@ ASR/LLM 的自托管方案，开放源码，并用可执行检查守住隐私边
 <tr>
 <td width="38%" valign="top">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 智能录音卡" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 智能录音卡" />
 </a>
 </td>
 <td width="62%" valign="top">
@@ -283,10 +283,10 @@ Open Edition 的 977 个自动化检查代表发布工程与异常路径工作�
 
 - **查看正式产品：** [筑听 JKinco Listen](https://jkincolisten.cloud)，平台可用性因分发渠道而异
 - **申请国际试用：** [发送邮件](mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot)
-- **本地运行：** [Open Edition Docker 快速开始](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open#quick-start-docker)
-- **理解架构：** [技术架构](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ARCHITECTURE.md) 与 [领域基准](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/BENCHMARK.md)
-- **评估质量：** [v0.2.0 Release](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0)、CI 与安全策略
-- **参与共建：** [贡献指南](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/CONTRIBUTING.md)、[路线图](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ROADMAP.md) 与 [Discussions](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/discussions)
+- **本地运行：** [Open Edition Docker 快速开始](https://github.com/wenxuanzhang1209-cyber/meetdo#quick-start-docker)
+- **理解架构：** [技术架构](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ARCHITECTURE.md) 与 [领域基准](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/BENCHMARK.md)
+- **评估质量：** [v0.2.0 Release](https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0)、CI 与安全策略
+- **参与共建：** [贡献指南](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/CONTRIBUTING.md)、[路线图](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ROADMAP.md) 与 [Discussions](https://github.com/wenxuanzhang1209-cyber/meetdo/discussions)
 
 与协作平台的集成 Recipe 属于路线图方向，不代表已经实现、获得认证或形成官方合作。
 
@@ -338,7 +338,7 @@ Open Edition 提供本地/自托管路径，但不能替代组织自己的法律
 <p align="center">
   <sub>
   <b>JKinco</b> · 正式产品、本地优先系统与可验证证据 ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open">筑听</a> ·
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo">筑听</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">Slides</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">Skills Lab</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">Tools</a>

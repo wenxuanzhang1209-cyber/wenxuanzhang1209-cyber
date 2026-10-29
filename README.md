@@ -30,7 +30,7 @@
   <a href="https://wenxuanzhang1209-cyber.github.io/"><img src="https://img.shields.io/badge/Portfolio-Open_site-2f81f7?style=flat-square" alt="Portfolio" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com"><img src="https://img.shields.io/badge/Email-wenxuanzhang1209%40gmail.com-181717?style=flat-square&logo=gmail" alt="Email" /></a>
   <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/Product-JKinco_Listen-22a06b?style=flat-square" alt="JKinco Listen" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><img src="https://img.shields.io/badge/Open_Source-Open_Edition-181717?style=flat-square&logo=github" alt="JKinco Listen Open Edition" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><img src="https://img.shields.io/badge/Open_Source-MeetDo-181717?style=flat-square&logo=github" alt="MeetDo by JKinco Listen" /></a>
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ live**; MCP/API extension is the next interoperability layer.
 
 <p align="center">
   <a href="https://jkincolisten.cloud"><img src="https://img.shields.io/badge/Production_App-v1.1.8-22a06b?style=flat-square" alt="JKinco Listen production app version 1.1.8" /></a>
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="Open Edition v0.2.0" /></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Open_Edition-v0.2.0-181717?style=flat-square" alt="Open Edition v0.2.0" /></a>
   <a href="https://open.workbuddy.cn"><img src="https://img.shields.io/badge/WorkBuddy-connected-7c3aed?style=flat-square" alt="WorkBuddy connector completed" /></a>
   <a href="mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot"><img src="https://img.shields.io/badge/Request-Global_pilot-2f81f7?style=flat-square&logo=gmail" alt="Request a global JKinco Listen pilot" /></a>
 </p>
@@ -101,7 +101,7 @@ live**; MCP/API extension is the next interoperability layer.
   <a href="https://jkincolisten.cloud/download/ios"><b>iOS availability</b></a> ·
   <a href="https://jkincolisten.cloud/download/android"><b>Android</b></a> ·
   <a href="https://jkincolisten.cloud/download/harmony/app.hap"><b>HarmonyOS</b></a> ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open"><b>Open Edition</b></a>
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo"><b>MeetDo Open Edition</b></a>
 </p>
 
 > **Distribution note:** as of 2026-10-29, the production iOS page uses an operator-managed
@@ -110,7 +110,7 @@ live**; MCP/API extension is the next interoperability layer.
 
 <p align="center">
   <a href="https://jkincolisten.cloud">
-    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-download-tour.gif" width="100%" alt="JKinco Listen production tour: live capture, automatic minutes, and grounded meeting Q&A" />
+    <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-download-tour.gif" width="100%" alt="JKinco Listen production tour: live capture, automatic minutes, and grounded meeting Q&A" />
   </a>
 </p>
 
@@ -120,21 +120,21 @@ live**; MCP/API extension is the next interoperability layer.
 <tr>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-recording.gif" width="100%" alt="Live capture in JKinco Listen" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-recording.gif" width="100%" alt="Live capture in JKinco Listen" />
 </a>
 <br/><b>01 · Capture live</b><br/>
 <sub>Phone or Z1 audio becomes a live, speaker-aware transcript while the meeting is still running.</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-generation.gif" width="100%" alt="Automatic structured minutes in JKinco Listen" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-generation.gif" width="100%" alt="Automatic structured minutes in JKinco Listen" />
 </a>
 <br/><b>02 · Resolve the minutes</b><br/>
 <sub>Decisions, owners, risks, and actions become an editable document with Word/PDF export.</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/production-sona.gif" width="100%" alt="Sona meeting Q&A in JKinco Listen" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/production-sona.gif" width="100%" alt="Sona meeting Q&A in JKinco Listen" />
 </a>
 <br/><b>03 · Ask Sona</b><br/>
 <sub>Query the meeting and its minutes for grounded answers, follow-ups, and missing context.</sub>
@@ -142,13 +142,13 @@ live**; MCP/API extension is the next interoperability layer.
 </tr>
 </table>
 
-### Hardware, live app, and Open Edition
+### Hardware, live app, and MeetDo
 
 <table>
 <tr>
 <td width="38%" valign="top">
 <a href="https://jkincolisten.cloud">
-  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/jkinco-listen-open/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 smart recording card" />
+  <img src="https://raw.githubusercontent.com/wenxuanzhang1209-cyber/meetdo/main/docs/jkinco-z1-product-card.png" alt="筑听 Z1 smart recording card" />
 </a>
 </td>
 <td width="62%" valign="top">
@@ -167,7 +167,7 @@ described below.
 ### My role: end-to-end product development
 
 **I independently designed and developed the JKinco Listen software product from the initial
-workflow problem through the production app and Open Edition.**
+workflow problem through the production app and MeetDo Open Edition.**
 
 | Product stage | What I designed, built, and shipped |
 |---|---|
@@ -240,7 +240,7 @@ idempotency, and an audit trail.
 | **Not measured** | CER/WER, confidence intervals, real-room accuracy, broad multilingual ASR accuracy, or superiority against other products |
 | **Intended use** | A reproducible regression and smoke test for the domain-correction layer |
 
-The Open Edition's 977 automated checks are evidence of release engineering and failure-path
+MeetDo's 977 automated checks are evidence of release engineering and failure-path
 activity, not a standalone claim of product quality.
 
 ### Three product decisions I made
@@ -249,7 +249,7 @@ activity, not a standalone claim of product quality.
 |---|---|---|
 | **Build for live meetings first** | A post-meeting summary discards the moment when context, questions, and accountability are richest | Live transcript, evolving minutes, and Sona Q&A share one stateful flow |
 | **Put rules before model confidence in scene selection** | A persuasive but wrong template can assert the wrong responsibility; the model needs a gate that can stop it | Evidence-gated classification; the model may downgrade a result but cannot promote a weak one |
-| **Split the production app from the Open Edition** | Most users need a short path to value; developers and regulated teams need source and a verifiable trust boundary | Production product and MIT Open Edition share a direction without pretending to be identical builds |
+| **Split the production app from MeetDo** | Most users need a short path to value; developers and regulated teams need source and a verifiable trust boundary | Production product and MIT MeetDo edition share a direction without pretending to be identical builds |
 
 ### Designed to complement the enterprise stack
 
@@ -302,10 +302,10 @@ The public entry points are deliberately practical:
 
 - **View the production product:** [JKinco Listen](https://jkincolisten.cloud) — platform availability varies by channel
 - **Request an international pilot:** [email](mailto:wenxuanzhang1209@gmail.com?subject=JKinco%20Listen%20pilot)
-- **Run the Open Edition:** [Docker quick start](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open#quick-start-docker)
-- **Understand it:** [architecture](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ARCHITECTURE.en.md) and [benchmark](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/BENCHMARK.md)
-- **Evaluate it:** [v0.2.0 release](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/releases/tag/v0.2.0), CI, and security policy
-- **Contribute:** [contributing guide](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/CONTRIBUTING.md), [roadmap](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/blob/main/docs/ROADMAP.en.md), and [Discussions](https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open/discussions)
+- **Run the Open Edition:** [Docker quick start](https://github.com/wenxuanzhang1209-cyber/meetdo#quick-start-docker)
+- **Understand it:** [architecture](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ARCHITECTURE.en.md) and [benchmark](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/BENCHMARK.md)
+- **Evaluate it:** [v0.2.0 release](https://github.com/wenxuanzhang1209-cyber/meetdo/releases/tag/v0.2.0), CI, and security policy
+- **Contribute:** [contributing guide](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/CONTRIBUTING.md), [roadmap](https://github.com/wenxuanzhang1209-cyber/meetdo/blob/main/docs/ROADMAP.en.md), and [Discussions](https://github.com/wenxuanzhang1209-cyber/meetdo/discussions)
 
 Integration recipes for collaboration platforms are a roadmap direction, not an existing
 vendor certification or claimed partnership.
@@ -322,7 +322,7 @@ the deployment and operating process should define:
 - human review for owner names, decisions, risks, and other high-impact fields;
 - an escalation path when transcription or model output is incomplete or wrong.
 
-The Open Edition exposes a local/self-hosted path. It does not replace an organization's legal,
+MeetDo exposes a local/self-hosted path. It does not replace an organization's legal,
 privacy, security, or records-management review.
 
 ## Experience & education
@@ -364,7 +364,7 @@ I am open to conversations about:
 <p align="center">
   <sub>
   <b>JKinco</b> · production AI, local-first systems, and open evidence ·
-  <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-listen-open">Listen</a> ·
+  <a href="https://github.com/wenxuanzhang1209-cyber/meetdo">MeetDo</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-slides">Slides</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/JKinco-Skills-Lab">Skills Lab</a> ·
   <a href="https://github.com/wenxuanzhang1209-cyber/jkinco-tools">Tools</a>

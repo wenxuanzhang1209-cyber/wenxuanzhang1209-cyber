@@ -7,7 +7,7 @@ README 结尾写着一句「Every number above was measured, not estimated.」
 这个脚本存在的意义，就是让那句话变成**可以执行的**，而不是一句自我评价。
 
 为什么需要它：数字会自己过期。写这个脚本的那天，README 上的
-「948 tests」已经落后于真实的 960，而 jkinco-listen-open 仓库内部
+「948 tests」已经落后于真实的 960，而 meetdo 仓库内部
 同时躺着 895、894、891 三个不同的版本。没有任何东西会因此报错 ——
 徽章是一张图片，表格是纯文本。它只在一个场合暴露：有人真的把仓库
 clone 下来跑了一遍，发现对不上。而那个人恰好是最认真的读者。
@@ -146,7 +146,7 @@ def _ci_logs(repo: str) -> str:
     if not token and gh is None:
         raise RuntimeError("读 CI 日志需要 GITHUB_TOKEN")
     # 必须按 workflow 名筛。第一版取的是「最近一次成功运行」，
-    # 结果 jkinco-listen-open 最近成功的是 pages-build-deployment ——
+    # 结果 meetdo 最近成功的是 pages-build-deployment ——
     # 一个部署文档站的 workflow，日志里当然没有任何测试结果。
     runs = _api(f"repos/{OWNER}/{repo}/actions/runs"
                 f"?status=success&per_page=20")
@@ -208,7 +208,7 @@ def measure_listen_tests() -> int:
     Linux runner 上有几个测试因为缺中文字体会跳过，只数 passed 会
     得到一个比真实测试数小的值，然后 README 就得跟着写一个假数字。
     """
-    matches = _PYTEST_SUMMARY.findall(_ci_logs("jkinco-listen-open"))
+    matches = _PYTEST_SUMMARY.findall(_ci_logs("meetdo"))
     if not matches:
         raise RuntimeError("CI 日志里没找到 pytest 的结尾汇总行")
     best = 0
@@ -256,8 +256,8 @@ def measure_recipes() -> int:
 
 
 CHECKS = [
-    ("jkinco-listen-open 测试数（徽章）", r"tests-(\d+)-3fb950", measure_listen_tests),
-    ("jkinco-listen-open 测试数（正文）", r"\*\*(\d+) tests\*\*", measure_listen_tests),
+    ("meetdo 测试数（徽章）", r"tests-(\d+)-3fb950", measure_listen_tests),
+    ("meetdo 测试数（正文）", r"\*\*(\d+) tests\*\*", measure_listen_tests),
     ("jkinco-slides packages",          r"(\d+) packages", measure_slides_packages),
     ("jkinco-slides 测试数",             r"packages · (\d+) tests", measure_slides_tests),
     ("jkinco-tools 校验文件数",           r"([\d,]+) files, 0 failures", measure_tools_files),
